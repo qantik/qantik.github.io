@@ -24,6 +24,8 @@ Looking for a more standard Jekyll theme? Try out [Shiori](http://github.com/ell
 
 This page itself is built with Solo. It's generated from [this markdown file](https://github.com/chibicode/solo/blob/gh-pages/_includes/index.md).
 
+<div id="demo-canvas"></div>
+
 ## Usage
 
 First, [install Jekyll](http://jekyllrb.com/docs/installation/). Then download Solo from its [GitHub Repository](https://github.com/chibicode/solo). Start Jekyll and you should see this page up and running.
