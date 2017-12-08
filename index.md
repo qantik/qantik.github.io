@@ -21,9 +21,11 @@ When $$f(x) = x$$ then identity
 
 This page itself is built with Solo. It's generated from [this markdown file](https://github.com/chibicode/solo/blob/gh-pages/_includes/index.md).
 
-## This is a bubbly graph
+## This is a SigmaJS graph
 
-<div id="demo-canvas"></div>
+<div id="parent" style="width: 250px; height: 400px;">
+  <div id="demo-canvas" style="position: absolute; height: 50%; width: 50%"></div>
+</div>
 
 ## Usage
 
