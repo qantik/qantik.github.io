@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-12-08">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="9652896" label="Image based tracking in augmented reality systems">
+        <viz:size value="17.5"></viz:size>
+        <viz:position x="490.7244" y="175.59328"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="9098926" label="Generating three-dimensional fa&amp;#xe7;ade models from images">
+        <viz:size value="17.5"></viz:size>
+        <viz:position x="323.89496" y="106.204605"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="7174039" label="System and method for embodying virtual reality">
+        <viz:size value="17.5"></viz:size>
+        <viz:position x="111.34241" y="36.601402"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="6888552" label="High dynamic range image editing">
+        <viz:size value="17.5"></viz:size>
+        <viz:position x="-113.435585" y="-33.53282"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="6396505" label="Methods and apparatus for detecting and reducing color errors in images">
+        <viz:size value="17.5"></viz:size>
+        <viz:position x="-323.6984" y="-103.057846"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+      <node id="4136359" label="Microcomputer for use with video display">
+        <viz:size value="17.5"></viz:size>
+        <viz:position x="-490.8727" y="-172.81339"></viz:position>
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="9652896" target="9098926">
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </edge>
+      <edge id="6" source="9098926" target="7174039">
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </edge>
+      <edge id="7" source="7174039" target="6888552">
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </edge>
+      <edge id="8" source="6888552" target="6396505">
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </edge>
+      <edge id="9" source="6396505" target="4136359">
+        <viz:color r="255" g="0" b="0"></viz:color>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

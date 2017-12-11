@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-12-10">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <nodes>
+      <node id="5471515" label="Active pixel sensor with intra-pixel charge transfer">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="156.99214" y="3.290374"></viz:position>
+        <viz:color r="252" g="141" b="89"></viz:color>
+      </node>
+      <node id="7812860" label="Handheld device for capturing text from both a document printed on paper and a document displayed on a dynamic display device">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="297.60696" y="56.37436"></viz:position>
+        <viz:color r="227" g="74" b="51"></viz:color>
+      </node>
+      <node id="6413822" label="Super-self-aligned fabrication process of trench-gate DMOS with overlying device layer">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-39.326176" y="157.92905"></viz:position>
+        <viz:color r="252" g="141" b="89"></viz:color>
+      </node>
+      <node id="5097427" label="Texture mapping for computer graphics display controller system">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="45.554607" y="79.307755"></viz:position>
+        <viz:color r="252" g="141" b="89"></viz:color>
+      </node>
+      <node id="9361283" label="Method and system for projecting text onto surfaces in geographic imagery">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="302.93805" y="137.85245"></viz:position>
+        <viz:color r="203" g="37" b="25"></viz:color>
+      </node>
+      <node id="6456326" label="Single chip camera device having double sampling operation">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="127.73208" y="-57.812668"></viz:position>
+        <viz:color r="244" g="121" b="78"></viz:color>
+      </node>
+      <node id="5649173" label="Hardware architecture for image generation and manipulation">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="96.305664" y="81.578354"></viz:position>
+        <viz:color r="239" g="107" b="70"></viz:color>
+      </node>
+      <node id="4276543" label="Monolithic triple diffusion analog to digital converter">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-86.49269" y="68.408844"></viz:position>
+        <viz:color r="253" g="204" b="138"></viz:color>
+      </node>
+      <node id="6042012" label="Method and apparatus for reading images without need for self-generated illumination source">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="231.19736" y="27.830942"></viz:position>
+        <viz:color r="239" g="107" b="70"></viz:color>
+      </node>
+      <node id="4152715" label="Silicon base CCD-bipolar transistor compatible methods and products">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-41.025997" y="21.997252"></viz:position>
+        <viz:color r="252" g="195" b="131"></viz:color>
+      </node>
+      <node id="8825597" label="Network folder synchronization">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="408.73587" y="-125.79644"></viz:position>
+        <viz:color r="179" g="0" b="0"></viz:color>
+      </node>
+      <node id="4136359" label="Microcomputer for use with video display">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-346.96738" y="-134.18234"></viz:position>
+        <viz:color r="252" g="195" b="131"></viz:color>
+      </node>
+      <node id="5198880" label="Semiconductor integrated circuit and method of making the same">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="79.45139" y="-14.373259"></viz:position>
+        <viz:color r="252" g="159" b="103"></viz:color>
+      </node>
+      <node id="6396505" label="Methods and apparatus for detecting and reducing color errors in images">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-217.69519" y="-80.701294"></viz:position>
+        <viz:color r="252" g="141" b="89"></viz:color>
+      </node>
+      <node id="6566710" label="Power MOSFET cell with a crossed bar shaped body contact area">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="74.72129" y="161.35957"></viz:position>
+        <viz:color r="239" g="107" b="70"></viz:color>
+      </node>
+      <node id="3970486" label="Methods of producing a semiconductor device and a semiconductor device produced by said method">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-254.78645" y="128.39832"></viz:position>
+        <viz:color r="253" g="222" b="177"></viz:color>
+      </node>
+      <node id="4928247" label="Method and apparatus for the continuous and asynchronous traversal and processing of graphics data structures">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="77.87408" y="-132.19485"></viz:position>
+        <viz:color r="230" g="83" b="56"></viz:color>
+      </node>
+      <node id="5544291" label="Resolution-independent method for displaying a three dimensional model in two-dimensional display space">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="96.201065" y="109.35581"></viz:position>
+        <viz:color r="239" g="107" b="70"></viz:color>
+      </node>
+      <node id="5596687" label="Apparatus and method for addressing pixel values within an image pyramid using a recursive technique">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="93.89499" y="52.27696"></viz:position>
+        <viz:color r="239" g="107" b="70"></viz:color>
+      </node>
+      <node id="7174039" label="System and method for embodying virtual reality">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="92.14693" y="19.885885"></viz:position>
+        <viz:color r="227" g="74" b="51"></viz:color>
+      </node>
+      <node id="4590463" label="Digital control of color in CRT display">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-10.73649" y="74.00613"></viz:position>
+        <viz:color r="252" g="172" b="113"></viz:color>
+      </node>
+      <node id="7128270" label="Scanning device for coded data">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="176.4532" y="-93.04058"></viz:position>
+        <viz:color r="230" g="83" b="56"></viz:color>
+      </node>
+      <node id="7941269" label="Network-based navigation system having virtual drive-thru advertisements integrated with actual imagery from along a physical route">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="191.10999" y="154.31024"></viz:position>
+        <viz:color r="227" g="74" b="51"></viz:color>
+      </node>
+      <node id="4599610" label="Overlaying information on a video display">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-206.29378" y="-132.812"></viz:position>
+        <viz:color r="252" g="159" b="103"></viz:color>
+      </node>
+      <node id="3981072" label="Bipolar transistor construction method">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-158.82967" y="63.336285"></viz:position>
+        <viz:color r="253" g="219" b="171"></viz:color>
+      </node>
+      <node id="4454647" label="Isolation for high density integrated circuits">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-205.83894" y="158.16882"></viz:position>
+        <viz:color r="253" g="204" b="138"></viz:color>
+      </node>
+      <node id="4736309" label="Data display for concurrent task processing systems">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-65.27221" y="-135.59875"></viz:position>
+        <viz:color r="244" g="121" b="78"></viz:color>
+      </node>
+      <node id="8443040" label="Method and system for synchronizing presentation of a dynamic data set to a plurality of nodes">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="231.44102" y="-127.87075"></viz:position>
+        <viz:color r="206" g="42" b="29"></viz:color>
+      </node>
+      <node id="9652896" label="Image based tracking in augmented reality systems">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="409.33014" y="115.9432"></viz:position>
+        <viz:color r="179" g="0" b="0"></viz:color>
+      </node>
+      <node id="6124864" label="Adaptive modeling and segmentation of visual image streams">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="145.74738" y="59.581738"></viz:position>
+        <viz:color r="227" g="74" b="51"></viz:color>
+      </node>
+      <node id="4876214" label="Method for fabricating an isolation region in a semiconductor substrate">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-150.36147" y="148.313"></viz:position>
+        <viz:color r="252" g="172" b="113"></viz:color>
+      </node>
+      <node id="9098926" label="Generating three-dimensional fa&amp;#xe7;ade models from images">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="218.34425" y="72.32936"></viz:position>
+        <viz:color r="203" g="37" b="25"></viz:color>
+      </node>
+      <node id="6888552" label="High dynamic range image editing">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-86.77236" y="-34.818356"></viz:position>
+        <viz:color r="239" g="107" b="70"></viz:color>
+      </node>
+      <node id="8502903" label="Image processing apparatus, image processing method and program for superimposition display">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="356.9559" y="86.19662"></viz:position>
+        <viz:color r="203" g="37" b="25"></viz:color>
+      </node>
+      <node id="2981877" label="-No title available-">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-342.8674" y="102.98912"></viz:position>
+        <viz:color r="254" g="240" b="217"></viz:color>
+      </node>
+      <node id="4454646" label="Isolation for high density integrated circuits">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="-204.27356" y="122.11833"></viz:position>
+        <viz:color r="253" g="204" b="138"></viz:color>
+      </node>
+      <node id="7199793" label="Image-based modeling and photo editing">
+        <viz:size value="10.0"></viz:size>
+        <viz:position x="150.74521" y="97.20729"></viz:position>
+        <viz:color r="227" g="74" b="51"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="4152715" target="3981072"></edge>
+      <edge id="1" source="8443040" target="4928247"></edge>
+      <edge id="2" source="4276543" target="3981072"></edge>
+      <edge id="3" source="3981072" target="2981877"></edge>
+      <edge id="4" source="4876214" target="4454646"></edge>
+      <edge id="5" source="4928247" target="4736309"></edge>
+      <edge id="6" source="5649173" target="5097427"></edge>
+      <edge id="7" source="4454647" target="3970486"></edge>
+      <edge id="8" source="9652896" target="9361283"></edge>
+      <edge id="9" source="7128270" target="6456326"></edge>
+      <edge id="10" source="9361283" target="7941269"></edge>
+      <edge id="11" source="7199793" target="5544291"></edge>
+      <edge id="12" source="7941269" target="6566710"></edge>
+      <edge id="13" source="7174039" target="6888552"></edge>
+      <edge id="14" source="6456326" target="5198880"></edge>
+      <edge id="15" source="6396505" target="4136359"></edge>
+      <edge id="16" source="4590463" target="4276543"></edge>
+      <edge id="17" source="5097427" target="4590463"></edge>
+      <edge id="18" source="4454646" target="3970486"></edge>
+      <edge id="19" source="4736309" target="4599610"></edge>
+      <edge id="20" source="8443040" target="7128270"></edge>
+      <edge id="21" source="6566710" target="6413822"></edge>
+      <edge id="22" source="9098926" target="7199793"></edge>
+      <edge id="23" source="7199793" target="5649173"></edge>
+      <edge id="24" source="3970486" target="2981877"></edge>
+      <edge id="25" source="9098926" target="6124864"></edge>
+      <edge id="26" source="9098926" target="7174039"></edge>
+      <edge id="27" source="9652896" target="9098926"></edge>
+      <edge id="28" source="5471515" target="5198880"></edge>
+      <edge id="29" source="5544291" target="5097427"></edge>
+      <edge id="30" source="5596687" target="5097427"></edge>
+      <edge id="31" source="8502903" target="7812860"></edge>
+      <edge id="32" source="6124864" target="5596687"></edge>
+      <edge id="33" source="4876214" target="4454647"></edge>
+      <edge id="34" source="5198880" target="4152715"></edge>
+      <edge id="35" source="9652896" target="8502903"></edge>
+      <edge id="36" source="4599610" target="4136359"></edge>
+      <edge id="37" source="6413822" target="4876214"></edge>
+      <edge id="38" source="7812860" target="6042012"></edge>
+      <edge id="39" source="6042012" target="5471515"></edge>
+      <edge id="40" source="8825597" target="8443040"></edge>
+      <edge id="41" source="6888552" target="6396505"></edge>
+    </edges>
+  </graph>
+</gexf>

@@ -26,16 +26,34 @@ G.addEdgesFrom([[1,2],[2,3]]);
 //    });
 //
 //
+
 sigma.parsers.gexf(
-  'js/les-miserables.gexf',
+  'js/patents_grad.gexf',
   { // Here is the ID of the DOM element that
     // will contain the graph:
-    container: 'demo-canvas'
+    container: 'demo-canvas',
+      settings:  {
+          //autoResize: true,
+          //enableCamera: true,
+          zoomingRatio: 1.0,
+          minEdgeSize: 3,
+          maxEdgeSize: 4,
+          defaultEdgeType: 'arrow',
+      }
   },
   function(s) {
     // This function will be executed when the
     // graph is displayed, with "s" the related
     // sigma instance.
-    //s.refresh();
+    //s.renderers[0].resize();
+    s.cameras[0].goTo({ x: 200, y: 0, angle: 0, ratio: 1.5 });
+    s.refresh();
   }
 );
+
+window.onload = () => {
+    var canvas = document.getElementById("he");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "30px Arial";
+    ctx.fillText("Hello World",10,50); 
+}

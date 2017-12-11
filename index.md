@@ -23,10 +23,19 @@ This page itself is built with Solo. It's generated from [this markdown file](ht
 
 ## This is a SigmaJS graph
 
-<div id="parent" style="width: 250px; height: 400px;">
-  <div id="demo-canvas" style="position: absolute; height: 50%; width: 50%"></div>
+<div id="parent" style="width: 1000px; height: 350px;">
+  <div id="demo-canvas" style="position: absolute; height: 350px; width: 1000px"></div>
 </div>
 
+<svg width="600px" height="100px">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+  <text x="325" y="35" font-family="Courier" font-size="15">Time</text>
+  <line x1="250" y1="50" x2="450" y2="50" stroke="#000" stroke-width="4" marker-end="url(#arrow)" />
+</svg>
 ## Usage
 
 First, [install Jekyll](http://jekyllrb.com/docs/installation/). Then download Solo from its [GitHub Repository](https://github.com/chibicode/solo). Start Jekyll and you should see this page up and running.
@@ -64,8 +73,3 @@ Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fo
 * Roman Bachmann
 * Michael Allemann
 * Andrea Caforio
-
-### License
-
-[MIT License](http://chibicode.mit-license.org/)
-
