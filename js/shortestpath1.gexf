@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2017-12-14">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" timeformat="double" timerepresentation="interval" mode="dynamic">
+    <attributes class="node" mode="static">
+      <attribute id="[z]" title="[z]" type="integer"></attribute>
+    </attributes>
+    <nodes>
+      <node id="6980090" label="Device and method for coupling with electrical distribution network infrastructure to provide communications" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="47.887688" y="86.277084"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="4875259" label="Intermeshable article" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-46.800602" y="-109.0583"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="6665642" label="Transcoding system and method for improved access by users with special needs" start="21.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="111.288734" y="-41.21682"></viz:position>
+        <viz:color r="253" g="205" b="159"></viz:color>
+      </node>
+      <node id="6894337" label="System and method for forming stacked fin structure using metal-induced-crystallization" start="25.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="88.59182" y="43.456364"></viz:position>
+        <viz:color r="253" g="217" b="177"></viz:color>
+      </node>
+      <node id="5370678" label="Steerable microwave antenna systems for cardiac ablation that minimize tissue damage and blood coagulation due to conductive heating patterns" start="11.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-71.5197" y="-67.98454"></viz:position>
+        <viz:color r="246" g="156" b="110"></viz:color>
+      </node>
+      <node id="5181162" label="Document management and production system" start="3.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-64.27487" y="74.87127"></viz:position>
+        <viz:color r="232" g="96" b="67"></viz:color>
+      </node>
+      <node id="223898" label="Electric Lamp" start="30.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="30"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="9.982892" y="98.16979"></viz:position>
+      </node>
+      <node id="6893421" label="Catheter shaft assembly" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-92.53369" y="-34.270714"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="5101493" label="Digital computer using data structure including external reference arrangement" start="4.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-78.03064" y="60.40021"></viz:position>
+        <viz:color r="233" g="104" b="72"></viz:color>
+      </node>
+      <node id="4928237" label="Computer system having mode independent addressing" start="5.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-88.59182" y="43.456364"></viz:position>
+        <viz:color r="235" g="111" b="78" a="0.99607843"></viz:color>
+      </node>
+      <node id="5337734" label="Disposable sheath with optically transparent window formed continuously integral therewith" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-100.71376" y="-62.775368"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="5311207" label="Image drawing apparatus for displaying input image on display means" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="83.740875" y="-52.196087"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="7023739" label="NAND memory array incorporating multiple write pulse programming of individual memory cells and method for operation of same" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-54.687717" y="-127.437454"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="6002411" label="Integrated video and memory controller with data processing and graphical processing capabilities" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="71.5197" y="-67.98454"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="7593778" label="Electrosurgical device with improved visibility" start="8.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-97.53816" y="-14.942297"></viz:position>
+        <viz:color r="240" g="134" b="94"></viz:color>
+      </node>
+      <node id="9066678" label="Ophthalmic endoilluminators with directed light" start="8.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-137.0769" y="-20.999409"></viz:position>
+        <viz:color r="240" g="134" b="94"></viz:color>
+      </node>
+      <node id="821393" label="Flying-machine" start="16.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="35.967228" y="-175.01855"></viz:position>
+      </node>
+      <node id="5247666" label="Data management method for representing hierarchical functional dependencies" start="3.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-77.30232" y="90.046425"></viz:position>
+        <viz:color r="232" g="96" b="67"></viz:color>
+      </node>
+      <node id="5446891" label="System for adjusting hypertext links with weighed user goals and activities" start="3.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-90.32977" y="105.22159"></viz:position>
+        <viz:color r="232" g="96" b="67"></viz:color>
+      </node>
+      <node id="7901353" label="Illuminated cannula" start="8.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-117.30753" y="-17.970852"></viz:position>
+        <viz:color r="240" g="134" b="94"></viz:color>
+      </node>
+      <node id="6965303" label="Power line communication system and method" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="57.593727" y="103.764015"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="5438662" label="Electronic display and data processing apparatus for displaying text and graphics in a ring binder representation" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="38.913483" y="-90.67914"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="6111614" label="Method and apparatus for displaying an electronic menu having components with differing levels of transparency" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="79.22123" y="-113.820244"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+      <node id="4849875" label="Computer address modification system with optional DMA paging" start="6.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-95.52604" y="24.733406"></viz:position>
+        <viz:color r="237" g="119" b="83"></viz:color>
+      </node>
+      <node id="7960232" label="Methods of designing an integrated circuit on corrugated substrate" start="22.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="97.53816" y="-14.942297"></viz:position>
+        <viz:color r="253" g="208" b="163"></viz:color>
+      </node>
+      <node id="5554106" label="Hydrocolloid exit site dressing" start="11.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-86.01556" y="-81.763885"></viz:position>
+        <viz:color r="246" g="156" b="110"></viz:color>
+      </node>
+      <node id="7200603" label="In a data storage server, for each subsets which does not contain compressed data after the compression, a predetermined value is stored in the corresponding entry of the corresponding compression group to indicate that corresponding data is compressed" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="46.800602" y="-109.0583"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="6243737" label="Method and apparatus for providing direct transaction access to information residing on a host system" start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-19.863346" y="-96.65616"></viz:position>
+        <viz:color r="251" g="179" b="126"></viz:color>
+      </node>
+      <node id="6006126" label="System and method for stereotactic registration of image scan data" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-117.686646" y="-73.354645"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="4737759" label="Level warning device " start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-23.889317" y="-116.24676"></viz:position>
+        <viz:color r="251" g="179" b="126"></viz:color>
+      </node>
+      <node id="7496586" label="Method and apparatus for compressing data in a file system" start="16.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="19.863346" y="-96.65616"></viz:position>
+        <viz:color r="253" g="190" b="136"></viz:color>
+      </node>
+      <node id="5575766" label="Process for the nonsurgical mapping and treatment of atrial arrhythmia using catheters guided by shaped guiding introducers" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-134.65953" y="-83.93393"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="6478793" label="Ablation treatment of bone metastases" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-111.288734" y="-41.21682"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="5596693" label="Method for controlling a spryte rendering processor" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="100.71376" y="-62.775368"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="6006227" label="Document stream operating system" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="90.64659" y="-130.23552"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+      <node id="7064654" label="Power line communication system and method of operating the same" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="67.29977" y="121.250946"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="9425099" label="Epitaxial channel with a counter-halo implant to improve analog gain" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="117.686646" y="-73.354645"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="676332" label="Apparatus for wireless telegraphy" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-94.12331" y="-219.33324"></viz:position>
+      </node>
+      <node id="6950567" label="Method and apparatus for providing inductive coupling and decoupling of high-frequency, high-bandwidth data signals directly on and off of a high voltage power line" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="77.005806" y="138.73788"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="4752893" label="Graphics data processing apparatus having image operations with transparent color having a selectable number of bits" start="5.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-106.54791" y="52.264244"></viz:position>
+        <viz:color r="235" g="111" b="78" a="0.99607843"></viz:color>
+      </node>
+      <node id="7250645" label="Reversed T-shaped FinFET" start="24.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="95.52604" y="24.733406"></viz:position>
+        <viz:color r="253" g="214" b="172"></viz:color>
+      </node>
+      <node id="5201101" label="Method of attaching articles and a pair of articles fastened by the method" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-62.574837" y="-145.8166"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="8635194" label="System and method for data compression" start="15.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-1.8126498E-14" y="-98.67606"></viz:position>
+        <viz:color r="253" g="187" b="132"></viz:color>
+      </node>
+      <node id="6014678" label="Apparatus for preparing a hyper-text document of pieces of information having reference relationships with each other" start="1.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-29.539974" y="94.1507"></viz:position>
+        <viz:color r="228" g="81" b="56"></viz:color>
+      </node>
+      <node id="6853587" label="Vertical NROM having a storage density of 1 bit per 1F2" start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-27.915287" y="-135.83736"></viz:position>
+        <viz:color r="251" g="179" b="126"></viz:color>
+      </node>
+      <node id="6366947" label="System and method for accelerating network interaction" start="22.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="117.30753" y="-17.970852"></viz:position>
+        <viz:color r="253" g="208" b="163"></viz:color>
+      </node>
+      <node id="7051072" label="Method for providing real-time conversations among business partners" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="134.65953" y="-83.93393"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="7103240" label="Method and apparatus for providing inductive coupling and decoupling of high-frequency, high-bandwidth data signals directly on and off of a high voltage power line" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="86.711845" y="156.22481"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="5995120" label="Graphics system including a virtual frame buffer which stores video/pixel data in a plurality of memory areas" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="86.01556" y="-81.763885"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="5462065" label="Integrated movement analyziing system" start="12.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-67.79586" y="-97.404976"></viz:position>
+        <viz:color r="247" g="164" b="115"></viz:color>
+      </node>
+      <node id="4235512" label="Retro-reflective assembly and method of manufacturing same" start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-31.941257" y="-155.42796"></viz:position>
+        <viz:color r="251" g="179" b="126"></viz:color>
+      </node>
+      <node id="8335936" label="Power node with network switch" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="96.417885" y="173.71175"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="6829617" label="Providing a snapshot of a subset of a file system" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="54.687717" y="-127.437454"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="6998962" label="Power line communication apparatus and method of using the same" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="106.123924" y="191.19868"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="4136359" label="Microcomputer for use with video display" start="8.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-196.385" y="-30.085075"></viz:position>
+      </node>
+      <node id="5630422" label="Diagnostic system for detecting and indicating cranial movements" start="11.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-100.51141" y="-95.54322"></viz:position>
+        <viz:color r="246" g="156" b="110"></viz:color>
+      </node>
+      <node id="7467163" label="System and method to manipulate large objects on enterprise server data management system" start="16.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="27.915287" y="-135.83736"></viz:position>
+        <viz:color r="253" g="190" b="136"></viz:color>
+      </node>
+      <node id="6535518" label="System for bypassing a server to achieve higher throughput between data network and data storage system" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-38.913483" y="-90.67914"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="7675897" label="Power line communications system with differentiated data services" start="27.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="27"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="64.27487" y="74.87127"></viz:position>
+        <viz:color r="253" g="223" b="186"></viz:color>
+      </node>
+      <node id="4952051" label="Method and apparatus for producing animated drawings and in-between drawings" start="21.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="130.04378" y="-48.162926"></viz:position>
+        <viz:color r="253" g="205" b="159"></viz:color>
+      </node>
+      <node id="7062547" label="Method and system for providing a central repository for client-specific accessibility" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="151.63242" y="-94.51321"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="6195622" label="Methods and apparatus for building attribute transition probability models for use in pre-fetching resources" start="23.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="98.549416" y="4.9978604"></viz:position>
+        <viz:color r="253" g="211" b="168"></viz:color>
+      </node>
+      <node id="7301440" label="Power line communication system and method" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="115.82996" y="208.68561"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="6945933" label="Instruments and methods for minimally invasive tissue retraction and surgery" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-130.04378" y="-48.162926"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="6315790" label="Radiopaque marker bands" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-148.79881" y="-55.10903"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="7633829" label="Hierarchical decoding of dense memory arrays using multiple levels of multiple-headed decoders" start="12.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-79.22123" y="-113.820244"></viz:position>
+        <viz:color r="247" g="164" b="115"></viz:color>
+      </node>
+      <node id="6351659" label="Neuro-navigation system" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-83.740875" y="-52.196087"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="8313954" label="All-in-one means of separating blood components" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-167.55386" y="-62.055138"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="6933835" label="Data communication over a power line" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="125.536" y="226.17255"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="6965302" label="Power line communication system and method of using the same" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="135.24203" y="243.65947"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="3981072" label="Bipolar transistor construction method" start="8.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-156.84627" y="-24.027964"></viz:position>
+        <viz:color r="240" g="134" b="94"></viz:color>
+      </node>
+      <node id="5131409" label="Device for microwave resonance therapy" start="12.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-90.64659" y="-130.23552"></viz:position>
+        <viz:color r="247" g="164" b="115"></viz:color>
+      </node>
+      <node id="7590701" label="Apparatus and method for generating alert messages in a message exchange network" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="102.07195" y="-146.65079"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+      <node id="6056743" label="Percutaneous myocardial revascularization device and method" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-186.3089" y="-69.00124"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="5364367" label="Cannula anchor" start="12.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-56.3705" y="-80.98971"></viz:position>
+        <viz:color r="247" g="164" b="115"></viz:color>
+      </node>
+      <node id="5047026" label="Electrosurgical implement for tunneling through tissue" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-151.63242" y="-94.51321"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="6251104" label="Guiding catheter system for ablating heart tissue" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-205.06395" y="-75.94735"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="7745270" label="Tri-gate patterning using dual layer gate stack" start="22.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="137.0769" y="-20.999409"></viz:position>
+        <viz:color r="253" g="208" b="163"></viz:color>
+      </node>
+      <node id="6074380" label="Device and method for transcutaneous surgery" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-168.6053" y="-105.09249"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="6024740" label="Circumferential ablation device assembly" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-185.57819" y="-115.67177"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="6560598" label="Internal database validation" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="62.574837" y="-145.8166"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="8569156" label="Reducing or eliminating pre-amorphization in transistor manufacture" start="21.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="92.53369" y="-34.270714"></viz:position>
+        <viz:color r="253" g="205" b="159"></viz:color>
+      </node>
+      <node id="8496862" label="Collet mechanism and method of molding cannula to a syringe barrel" start="8.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-176.61563" y="-27.056519"></viz:position>
+        <viz:color r="240" g="134" b="94"></viz:color>
+      </node>
+      <node id="7092977" label="Techniques for storing data based upon storage policies" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="168.6053" y="-105.09249"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="6584497" label="Method, system, and program for returning a file requested through a network connection" start="21.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="148.79881" y="-55.10903"></viz:position>
+        <viz:color r="253" g="205" b="159"></viz:color>
+      </node>
+      <node id="2981877" label="Semiconductor device-and-lead structure" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-280.0841" y="-103.731766"></viz:position>
+      </node>
+      <node id="7245212" label="Power line communication apparatus and method of using the same" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="144.94807" y="261.1464"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="4279014" label="Arrangement for converting virtual addresses into physical addresses in a data processing system" start="6.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-114.88758" y="29.746456"></viz:position>
+        <viz:color r="237" g="119" b="83"></viz:color>
+      </node>
+      <node id="6980091" label="Power line communication system and method of operating the same" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="154.65411" y="278.63333"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="6312979" label="Method of crystallizing an amorphous silicon layer" start="26.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="78.03064" y="60.40021"></viz:position>
+        <viz:color r="253" g="220" b="181"></viz:color>
+      </node>
+      <node id="7042351" label="Data communication over a power line" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="164.36015" y="296.12027"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="6285999" label="Method for node ranking in a linked database" start="0.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-9.982892" y="98.16979"></viz:position>
+        <viz:color r="204" g="0" b="0"></viz:color>
+      </node>
+      <node id="4276543" label="Monolithic triple diffusion analog to digital converter" start="7.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-118.52374" y="6.010844"></viz:position>
+        <viz:color r="239" g="126" b="88" a="0.99607843"></viz:color>
+      </node>
+      <node id="3009235" label="Separable fastening device " start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-44.01917" y="-214.19975"></viz:position>
+      </node>
+      <node id="6681223" label="System and method of performing profile matching with a structured document" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="113.49732" y="-163.06606"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+      <node id="6272467" label="System for data collection and matching compatible profiles" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="100.51141" y="-95.54322"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="6325798" label="Vacuum-assisted systems and methods for treating sphincters and adjoining tissue regions" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-202.55107" y="-126.251045"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="4383296" label="Computer with a memory system for remapping a memory having two memory output buses for high resolution display with scrolling of the displayed characters" start="7.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-138.49808" y="7.0238276"></viz:position>
+        <viz:color r="239" g="126" b="88" a="0.99607843"></viz:color>
+      </node>
+      <node id="6157743" label="Method for retrieving compressed texture data from a memory system" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="56.3705" y="-80.98971"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+      <node id="7546462" label="Systems and methods for integration adapter security" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="115.00727" y="-109.32256"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="5325475" label="Computer method and apparatus for matching between line drawings" start="20.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="185.57819" y="-115.67177"></viz:position>
+        <viz:color r="253" g="202" b="154"></viz:color>
+      </node>
+      <node id="5300783" label="Layered reflecting and luminous material" start="12.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-102.07195" y="-146.65079"></viz:position>
+        <viz:color r="247" g="164" b="115"></viz:color>
+      </node>
+      <node id="6492897" label="System for coupling wireless signals to and from a power transmission line communication system" start="29.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="29.539974" y="94.1507"></viz:position>
+        <viz:color r="253" g="229" b="195"></viz:color>
+      </node>
+      <node id="5446548" label="Patient positioning and monitoring system" start="11.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-115.00727" y="-109.32256"></viz:position>
+        <viz:color r="246" g="156" b="110"></viz:color>
+      </node>
+      <node id="4590463" label="Digital control of color in CRT display" start="6.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-134.24913" y="34.759506"></viz:position>
+        <viz:color r="237" g="119" b="83"></viz:color>
+      </node>
+      <node id="6397246" label="Method and system for processing document requests in a network system" start="22.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="156.84627" y="-24.027964"></viz:position>
+        <viz:color r="253" g="208" b="163"></viz:color>
+      </node>
+      <node id="9218231" label="Diagnosing a problem of a software product running in a cloud environment" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="70.46195" y="-164.19577"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="5021976" label="Method and system for generating dynamic, interactive visual representations of information structures within a computer" start="4.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-93.84615" y="72.64233"></viz:position>
+        <viz:color r="233" g="104" b="72"></viz:color>
+      </node>
+      <node id="4884974" label="Interactive talking book and audio player assembly" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="129.50313" y="-123.1019"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="5879349" label="Apparatus for treatment of air way obstructions" start="10.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-219.52396" y="-136.83032"></viz:position>
+        <viz:color r="244" g="149" b="105"></viz:color>
+      </node>
+      <node id="7529785" label="Efficient backups using dynamically shared storage pools in peer-to-peer networks" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="143.99898" y="-136.88124"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="6478730" label="Zoom laparoscope" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-223.81898" y="-82.89345"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="7285107" label="Vitreoretinal instrument" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-242.57404" y="-89.839554"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="5892521" label="System and method for composing a display frame of multiple layered graphic sprites" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="158.49483" y="-150.66057"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="7075414" label="Device and method for communicating data signals through multiple power line conductors" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="174.0662" y="313.6072"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="6195703" label="Dynamic routing for performance partitioning in a data processing network" start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-35.967228" y="-175.01855"></viz:position>
+        <viz:color r="251" g="179" b="126"></viz:color>
+      </node>
+      <node id="1143542" label="Process of and apparatus for producing moving pictures" start="22.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="176.61563" y="-27.056519"></viz:position>
+      </node>
+      <node id="8503428" label="Customized classification of host bound traffic" start="25.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="106.54791" y="52.264244"></viz:position>
+        <viz:color r="253" g="217" b="177"></viz:color>
+      </node>
+      <node id="5418946" label="Structured data classification device" start="2.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-47.887688" y="86.277084"></viz:position>
+        <viz:color r="230" g="89" b="61"></viz:color>
+      </node>
+      <node id="4456954" label="Virtual machine system with guest architecture emulation using hardware TLB's for plural level address translations" start="5.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-124.504" y="61.07213"></viz:position>
+        <viz:color r="235" g="111" b="78" a="0.99607843"></viz:color>
+      </node>
+      <node id="5956489" label="Transaction replication system and method for supporting replicated transaction-based services" start="15.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-2.180044E-14" y="-118.67606"></viz:position>
+        <viz:color r="253" g="187" b="132"></viz:color>
+      </node>
+      <node id="6429063" label="NROM cell with generally decoupled primary and secondary injection" start="15.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-2.547438E-14" y="-138.67607"></viz:position>
+        <viz:color r="253" g="187" b="132"></viz:color>
+      </node>
+      <node id="9510847" label="Targeted illumination for surgical instrument" start="7.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-98.549416" y="4.9978604"></viz:position>
+        <viz:color r="239" g="126" b="88" a="0.99607843"></viz:color>
+      </node>
+      <node id="7528025" label="Nonplanar transistors with metal gate electrodes" start="23.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="118.52374" y="6.010844"></viz:position>
+        <viz:color r="253" g="211" b="168"></viz:color>
+      </node>
+      <node id="7809856" label="Prioritizing data transfers over data buses" start="26.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="93.84615" y="72.64233"></viz:position>
+        <viz:color r="253" g="220" b="181"></viz:color>
+      </node>
+      <node id="5500929" label="System for browsing a network resource book with tabs attached to pages" start="16.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="31.941257" y="-155.42796"></viz:position>
+        <viz:color r="253" g="190" b="136"></viz:color>
+      </node>
+      <node id="6958680" label="Power line communication system and method of using the same" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="183.77223" y="331.09415"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="4484191" label="Tactile signaling systems for aircraft" start="15.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-2.914832E-14" y="-158.67607"></viz:position>
+        <viz:color r="253" g="187" b="132"></viz:color>
+      </node>
+      <node id="7284160" label="Error messaging method in HTTP based communication systems" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="172.99069" y="-164.43991"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="9348720" label="Method for testing the reliability of complex systems" start="16.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="23.889317" y="-116.24676"></viz:position>
+        <viz:color r="253" g="190" b="136"></viz:color>
+      </node>
+      <node id="4938476" label="Body position attitude indicator device" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-70.46195" y="-164.19577"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="8041996" label="Method and apparatus for time-based event correlation" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="78.34907" y="-182.57492"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="6770070" label="Lung treatment apparatus and method" start="9.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-261.32907" y="-96.78566"></viz:position>
+        <viz:color r="242" g="141" b="99"></viz:color>
+      </node>
+      <node id="4997374" label="Teaching device" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="124.92268" y="-179.48132"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+      <node id="5077870" label="Mushroom-type hook strip for a mechanical fastener" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-78.34907" y="-182.57492"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="5634062" label="System for managing hypertext node information and link information" start="2.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-57.593727" y="103.764015"></viz:position>
+        <viz:color r="230" g="89" b="61"></viz:color>
+      </node>
+      <node id="6067098" label="Video/graphics controller which performs pointer-based display list video refresh operation" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="187.48654" y="-178.21925"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="7714397" label="Tri-gate transistor device with stress incorporation layer and method of fabrication" start="23.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="138.49808" y="7.0238276"></viz:position>
+        <viz:color r="253" g="211" b="168"></viz:color>
+      </node>
+      <node id="6615231" label="System and method for directing requests to specific processing" start="21.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="167.55386" y="-62.055138"></viz:position>
+        <viz:color r="253" g="205" b="159"></viz:color>
+      </node>
+      <node id="6226684" label="Method and apparatus for reestablishing network connections in a multi-router network" start="14.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-39.9932" y="-194.60916"></viz:position>
+        <viz:color r="251" g="179" b="126"></viz:color>
+      </node>
+      <node id="7856013" label="Switch assisted frame aliasing for storage virtualization" start="12.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-113.49732" y="-163.06606"></viz:position>
+        <viz:color r="247" g="164" b="115"></viz:color>
+      </node>
+      <node id="9007898" label="System to share network bandwidth among competing applications" start="24.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="114.88758" y="29.746456"></viz:position>
+        <viz:color r="253" g="214" b="172"></viz:color>
+      </node>
+      <node id="4899136" label="Data processor having a user interface display with metaphoric objects" start="4.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-109.66167" y="84.884445"></viz:position>
+        <viz:color r="233" g="104" b="72"></viz:color>
+      </node>
+      <node id="4684490" label="Process for preparation of polyurethane condoms" start="11.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-129.50313" y="-123.1019"></viz:position>
+        <viz:color r="246" g="156" b="110"></viz:color>
+      </node>
+      <node id="4555161" label="Encapsulated retroreflective material and method of making same" start="13.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-86.23618" y="-200.95407"></viz:position>
+        <viz:color r="249" g="171" b="121"></viz:color>
+      </node>
+      <node id="5434962" label="Method and system for automatically generating logical structures of electronic documents" start="2.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-67.29977" y="121.250946"></viz:position>
+        <viz:color r="230" g="89" b="61"></viz:color>
+      </node>
+      <node id="6857001" label="Multiple concurrent active file systems" start="17.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="86.23618" y="-200.95407"></viz:position>
+        <viz:color r="253" g="193" b="141"></viz:color>
+      </node>
+      <node id="9170625" label="Selective electrical coupling based on environmental conditions" start="27.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="27"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="77.30232" y="90.046425"></viz:position>
+        <viz:color r="253" g="223" b="186"></viz:color>
+      </node>
+      <node id="7869248" label="Bit line decoder architecture for NOR-type memory array" start="11.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-143.99898" y="-136.88124"></viz:position>
+        <viz:color r="246" g="156" b="110"></viz:color>
+      </node>
+      <node id="7307511" label="Power line communication system and method" start="28.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="193.47827" y="348.58105"></viz:position>
+        <viz:color r="253" g="226" b="190"></viz:color>
+      </node>
+      <node id="5535063" label="Real time user indexing of random access time stamp correlated databases" start="19.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="201.9824" y="-191.9986"></viz:position>
+        <viz:color r="253" g="199" b="150"></viz:color>
+      </node>
+      <node id="5951694" label="Method of redirecting a client service session to a second application server without interrupting the session by forwarding service-specific information to the second server" start="15.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="-3.282226E-14" y="-178.67607"></viz:position>
+        <viz:color r="253" g="187" b="132"></viz:color>
+      </node>
+      <node id="8769083" label="Metering software infrastructure in a cloud computing environment" start="18.0" end="30.0">
+        <attvalues>
+          <attvalue for="[z]" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="67.79586" y="-97.404976"></viz:position>
+        <viz:color r="253" g="196" b="145"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="5462065" target="4938476"></edge>
+      <edge id="1" source="8569156" target="7745270"></edge>
+      <edge id="2" source="6243737" target="5951694"></edge>
+      <edge id="3" source="7062547" target="6665642"></edge>
+      <edge id="4" source="6478793" target="6006126"></edge>
+      <edge id="5" source="6853587" target="6429063"></edge>
+      <edge id="6" source="9348720" target="9218231"></edge>
+      <edge id="7" source="9510847" target="7901353"></edge>
+      <edge id="8" source="4590463" target="4276543"></edge>
+      <edge id="9" source="8569156" target="7960232"></edge>
+      <edge id="10" source="5575766" target="5370678"></edge>
+      <edge id="11" source="8769083" target="7546462"></edge>
+      <edge id="12" source="7064654" target="6492897"></edge>
+      <edge id="13" source="6325798" target="5370678"></edge>
+      <edge id="14" source="7675897" target="7075414"></edge>
+      <edge id="15" source="7675897" target="6965302"></edge>
+      <edge id="16" source="9170625" target="8335936"></edge>
+      <edge id="17" source="6366947" target="6195622"></edge>
+      <edge id="18" source="6945933" target="6074380"></edge>
+      <edge id="19" source="6056743" target="5047026"></edge>
+      <edge id="20" source="6285999" target="6014678"></edge>
+      <edge id="21" source="6950567" target="6492897"></edge>
+      <edge id="22" source="7714397" target="7250645"></edge>
+      <edge id="23" source="7092977" target="6584497"></edge>
+      <edge id="24" source="6560598" target="6111614"></edge>
+      <edge id="25" source="7023739" target="6853587"></edge>
+      <edge id="26" source="6397246" target="6195622"></edge>
+      <edge id="27" source="7593778" target="6770070"></edge>
+      <edge id="28" source="7528025" target="7250645"></edge>
+      <edge id="29" source="5879349" target="5370678"></edge>
+      <edge id="30" source="6195703" target="5951694"></edge>
+      <edge id="31" source="5500929" target="5438662"></edge>
+      <edge id="32" source="6770070" target="5879349"></edge>
+      <edge id="33" source="6681223" target="6272467"></edge>
+      <edge id="34" source="9425099" target="8569156"></edge>
+      <edge id="35" source="4884974" target="9425099"></edge>
+      <edge id="36" source="6965303" target="6492897"></edge>
+      <edge id="37" source="9066678" target="7285107"></edge>
+      <edge id="38" source="5438662" target="4997374"></edge>
+      <edge id="39" source="4938476" target="4737759"></edge>
+      <edge id="40" source="6111614" target="5892521"></edge>
+      <edge id="41" source="4484191" target="821393"></edge>
+      <edge id="42" source="4899136" target="4456954"></edge>
+      <edge id="43" source="7103240" target="6492897"></edge>
+      <edge id="44" source="6226684" target="5951694"></edge>
+      <edge id="45" source="7809856" target="7675897"></edge>
+      <edge id="46" source="6535518" target="6243737"></edge>
+      <edge id="47" source="5047026" target="7869248"></edge>
+      <edge id="48" source="6998962" target="6492897"></edge>
+      <edge id="49" source="6535518" target="6195703"></edge>
+      <edge id="50" source="4235512" target="8635194"></edge>
+      <edge id="51" source="3981072" target="2981877"></edge>
+      <edge id="52" source="7593778" target="6251104"></edge>
+      <edge id="53" source="7593778" target="6893421"></edge>
+      <edge id="54" source="4752893" target="4590463"></edge>
+      <edge id="55" source="6980091" target="6492897"></edge>
+      <edge id="56" source="6958680" target="6492897"></edge>
+      <edge id="57" source="5201101" target="3009235"></edge>
+      <edge id="58" source="6615231" target="6366947"></edge>
+      <edge id="59" source="7042351" target="6492897"></edge>
+      <edge id="60" source="9510847" target="9066678"></edge>
+      <edge id="61" source="8635194" target="7467163"></edge>
+      <edge id="62" source="5370678" target="5131409"></edge>
+      <edge id="63" source="6014678" target="5634062"></edge>
+      <edge id="64" source="7200603" target="6157743"></edge>
+      <edge id="65" source="6584497" target="6397246"></edge>
+      <edge id="66" source="5446548" target="5300783"></edge>
+      <edge id="67" source="5630422" target="5462065"></edge>
+      <edge id="68" source="7245212" target="6492897"></edge>
+      <edge id="69" source="9348720" target="8041996"></edge>
+      <edge id="70" source="6894337" target="6312979"></edge>
+      <edge id="71" source="4952051" target="1143542"></edge>
+      <edge id="72" source="8769083" target="7529785"></edge>
+      <edge id="73" source="7675897" target="7042351"></edge>
+      <edge id="74" source="6024740" target="5370678"></edge>
+      <edge id="75" source="7960232" target="7714397"></edge>
+      <edge id="76" source="7675897" target="6998962"></edge>
+      <edge id="77" source="6478730" target="5337734"></edge>
+      <edge id="78" source="5364367" target="4875259"></edge>
+      <edge id="79" source="6857001" target="6006227"></edge>
+      <edge id="80" source="7051072" target="6615231"></edge>
+      <edge id="81" source="6965302" target="6492897"></edge>
+      <edge id="82" source="7675897" target="7103240"></edge>
+      <edge id="83" source="5434962" target="5181162"></edge>
+      <edge id="84" source="7745270" target="7528025"></edge>
+      <edge id="85" source="7675897" target="6965303"></edge>
+      <edge id="86" source="7496586" target="7200603"></edge>
+      <edge id="87" source="7869248" target="7633829"></edge>
+      <edge id="88" source="7675897" target="7301440"></edge>
+      <edge id="89" source="7496586" target="6829617"></edge>
+      <edge id="90" source="6893421" target="5047026"></edge>
+      <edge id="91" source="7675897" target="7064654"></edge>
+      <edge id="92" source="7301440" target="6492897"></edge>
+      <edge id="93" source="6351659" target="5446548"></edge>
+      <edge id="94" source="5364367" target="5077870"></edge>
+      <edge id="95" source="5077870" target="3009235"></edge>
+      <edge id="96" source="5535063" target="5311207"></edge>
+      <edge id="97" source="7633829" target="7023739"></edge>
+      <edge id="98" source="6014678" target="5434962"></edge>
+      <edge id="99" source="5554106" target="5364367"></edge>
+      <edge id="100" source="4276543" target="3981072"></edge>
+      <edge id="101" source="4684490" target="7856013"></edge>
+      <edge id="102" source="6157743" target="6067098"></edge>
+      <edge id="103" source="9510847" target="7593778"></edge>
+      <edge id="104" source="7496586" target="6857001"></edge>
+      <edge id="105" source="7675897" target="7245212"></edge>
+      <edge id="106" source="7285107" target="6325798"></edge>
+      <edge id="107" source="4737759" target="4484191"></edge>
+      <edge id="108" source="7901353" target="6478730"></edge>
+      <edge id="109" source="4849875" target="4383296"></edge>
+      <edge id="110" source="6014678" target="5418946"></edge>
+      <edge id="111" source="8503428" target="7809856"></edge>
+      <edge id="112" source="7307511" target="6492897"></edge>
+      <edge id="113" source="7250645" target="6894337"></edge>
+      <edge id="114" source="4279014" target="9510847"></edge>
+      <edge id="115" source="6002411" target="5596693"></edge>
+      <edge id="116" source="7284160" target="7062547"></edge>
+      <edge id="117" source="7856013" target="6535518"></edge>
+      <edge id="118" source="6251104" target="5575766"></edge>
+      <edge id="119" source="8496862" target="8313954"></edge>
+      <edge id="120" source="7590701" target="7284160"></edge>
+      <edge id="121" source="5956489" target="5500929"></edge>
+      <edge id="122" source="6535518" target="6226684"></edge>
+      <edge id="123" source="6980090" target="6492897"></edge>
+      <edge id="124" source="7901353" target="6945933"></edge>
+      <edge id="125" source="6067098" target="5596693"></edge>
+      <edge id="126" source="8635194" target="7496586"></edge>
+      <edge id="127" source="5418946" target="5247666"></edge>
+      <edge id="128" source="6312979" target="9170625"></edge>
+      <edge id="129" source="7529785" target="7092977"></edge>
+      <edge id="130" source="7675897" target="7307511"></edge>
+      <edge id="131" source="7675897" target="6933835"></edge>
+      <edge id="132" source="7675897" target="6980090"></edge>
+      <edge id="133" source="6157743" target="5995120"></edge>
+      <edge id="134" source="5311207" target="4952051"></edge>
+      <edge id="135" source="9218231" target="8769083"></edge>
+      <edge id="136" source="5247666" target="5101493"></edge>
+      <edge id="137" source="7075414" target="6492897"></edge>
+      <edge id="138" source="5300783" target="4555161"></edge>
+      <edge id="139" source="6272467" target="5325475"></edge>
+      <edge id="140" source="7675897" target="6950567"></edge>
+      <edge id="141" source="5892521" target="5596693"></edge>
+      <edge id="142" source="9510847" target="8496862"></edge>
+      <edge id="143" source="4875259" target="3009235"></edge>
+      <edge id="144" source="8335936" target="6492897"></edge>
+      <edge id="145" source="9007898" target="8503428"></edge>
+      <edge id="146" source="5446891" target="5021976"></edge>
+      <edge id="147" source="8313954" target="6351659"></edge>
+      <edge id="148" source="5131409" target="676332"></edge>
+      <edge id="149" source="5634062" target="5446891"></edge>
+      <edge id="150" source="6006126" target="5446548"></edge>
+      <edge id="151" source="5995120" target="5596693"></edge>
+      <edge id="152" source="5337734" target="4684490"></edge>
+      <edge id="153" source="4456954" target="4279014"></edge>
+      <edge id="154" source="7593778" target="6315790"></edge>
+      <edge id="155" source="4997374" target="4884974"></edge>
+      <edge id="156" source="6243737" target="5956489"></edge>
+      <edge id="157" source="5101493" target="4928237"></edge>
+      <edge id="158" source="6315790" target="6024740"></edge>
+      <edge id="159" source="5364367" target="5201101"></edge>
+      <edge id="160" source="6829617" target="6681223"></edge>
+      <edge id="161" source="5596693" target="4952051"></edge>
+      <edge id="162" source="6351659" target="5630422"></edge>
+      <edge id="163" source="7467163" target="6560598"></edge>
+      <edge id="164" source="4383296" target="4136359"></edge>
+      <edge id="165" source="6074380" target="5554106"></edge>
+      <edge id="166" source="5325475" target="4952051"></edge>
+      <edge id="167" source="6665642" target="6366947"></edge>
+      <edge id="168" source="6006227" target="5535063"></edge>
+      <edge id="169" source="5181162" target="4899136"></edge>
+      <edge id="170" source="8041996" target="7590701"></edge>
+      <edge id="171" source="7546462" target="7051072"></edge>
+      <edge id="172" source="7675897" target="6980091"></edge>
+      <edge id="173" source="6157743" target="6002411"></edge>
+      <edge id="174" source="4928237" target="4849875"></edge>
+      <edge id="175" source="5951694" target="5500929"></edge>
+      <edge id="176" source="6429063" target="9348720"></edge>
+      <edge id="177" source="6492897" target="223898"></edge>
+      <edge id="178" source="7593778" target="6056743"></edge>
+      <edge id="179" source="6933835" target="6492897"></edge>
+      <edge id="180" source="5021976" target="4752893"></edge>
+      <edge id="181" source="6195622" target="9007898"></edge>
+      <edge id="182" source="7593778" target="6478793"></edge>
+      <edge id="183" source="7675897" target="6958680"></edge>
+      <edge id="184" source="4555161" target="4235512"></edge>
+    </edges>
+  </graph>
+</gexf>

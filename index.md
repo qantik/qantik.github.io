@@ -13,25 +13,37 @@ layout: default
 
 ---
 
-This blog was written as part of the CS-401 Applied data analysis course at EPFL, taught in the autumn of 2017. 
+This blog was written as part of the CS-401 Applied data analysis course at EPFL,
+taught in the autumn of 2017. 
 
-The purpose of this blog is to present our analysis of the patent citations provided by the [patentsview.org](http://www.patentsview.org) website of the United States Patent and Trademark Office ([USPTO](https://www.uspto.gov/)). 
+The purpose of this blog is to present our analysis of the patent citations provided by
+the [patentsview.org](http://www.patentsview.org) website of the United States Patent
+and Trademark Office ([USPTO](https://www.uspto.gov/)). 
 
-The content of this blog is intentionally high-level. Please refer to our [python notebook](https://nbviewer.jupyter.org/github/qantik/prayingmantissa/blob/master/project/patents.ipynb), if you are interested in viewing a more thorough and complete analysis.
+The content of this blog is intentionally high-level. Please refer to our
+[python notebook](https://nbviewer.jupyter.org/github/qantik/prayingmantissa/blob/master/project/patents.ipynb), if you are interested in viewing a more thorough and complete analysis.
 
 --- 
 
 ### What is a patent and what are the above mentioned citations?
 
-The USTPO defines a patent as a property right granted by the Government of the United States of America to an inventor "to exclude others from making, using, offering for sale, or selling the invention throughout the United States or importing the invention into the United States" for a limited time in exchange for public disclosure of the invention when the patent is granted.
+The USTPO defines a patent as a property right granted by the Government of
+the United States of America to an inventor "to exclude others from making,
+using, offering for sale, or selling the invention throughout the United States or
+importing the invention into the United States" for a limited time in exchange for
+public disclosure of the invention when the patent is granted.
 
-The process of obtaining a patent from the USPTO is a lengthy and rigorous procedure. While applying for a patent a list of cited patents must be provided. From patents view.org we got the complete list of all patent citations from 1976 up to the current year.
+The process of obtaining a patent from the USPTO is a lengthy and rigorous procedure.
+While applying for a patent a list of cited patents must be provided. From patents
+view.org we got the complete list of all patent citations from 1976 up to the current year.
 
 ### How can a list of citations be analyzed?
 
-An important subject in mathematics is the field of graph theory. The introductory paragraph of the wikipedia article on graph theory says the following: 
+An important subject in mathematics is the field of graph theory. The introductory
+paragraph of the wikipedia article on graph theory says the following: 
 
-"In mathematics, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices, nodes, or points which are connected by edges, arcs, or lines. A graph may be undirected, meaning that there is no distinction between the two vertices associated with each edge, or its edges may be directed from one vertex to another."
+"In mathematics, graph theory is the study of graphs, which are mathematical structures 
+used to model pairwise relations between objects. A graph in this context is made up of vertices, nodes, or points which are connected by edges, arcs, or lines. A graph may be undirected, meaning that there is no distinction between the two vertices associated with each edge, or its edges may be directed from one vertex to another."
 
 In our model the nodes are represented by patents and the edges by citations. Our citations graph is directed, because it is important that one node cites the other and not vice versa.
 
@@ -50,10 +62,18 @@ Looking for a more standard Jekyll theme? Try out [Shiori](http://github.com/ell
 
 When $$f(x) = x$$ then identity
 
+## Counter
+
+<svg width="500" height="400"></svg>
+
+## Gif
+
+<img src="static/pagerank_bfs.gif" style="border-style: none" />
+
 ## This is a SigmaJS graph
 
-<div id="parent" style="width: 1000px; height: 350px;">
-  <div id="demo-canvas" style="position: absolute; height: 350px; width: 1000px"></div>
+<div id="parent" style="width: 1000px; height: 550px;">
+  <div id="demo-canvas" style="position: absolute; height: 700px; width: 1000px"></div>
 </div>
 
 <svg width="600px" height="100px">
