@@ -6,8 +6,8 @@ layout: default
 
 ---
 
-<h2 id="counter1">#Patents ~</h2>
-<h2 id="counter2">#Patents ~</h2>
+<h2 id="counter1"></h2>
+<h2 id="counter2"></h2>
 
 ## What are the most influential United States patents?
 
@@ -43,17 +43,29 @@ An important subject in mathematics is the field of graph theory. The introducto
 paragraph of the wikipedia article on graph theory says the following: 
 
 "In mathematics, graph theory is the study of graphs, which are mathematical structures 
-used to model pairwise relations between objects. A graph in this context is made up of vertices, nodes, or points which are connected by edges, arcs, or lines. A graph may be undirected, meaning that there is no distinction between the two vertices associated with each edge, or its edges may be directed from one vertex to another."
+used to model pairwise relations between objects. A graph in this context is made up
+of vertices, nodes, or points which are connected by edges, arcs, or lines. A graph may
+be undirected, meaning that there is no distinction between the two vertices associated
+with each edge, or its edges may be directed from one vertex to another."
 
-In our model the nodes are represented by patents and the edges by citations. Our citations graph is directed, because it is important that one node cites the other and not vice versa.
+In our model the nodes are represented by patents and the edges by citations. Our
+citations graph is directed, because it is important that one node cites the other
+and not vice versa.
 
 ### What was the goal of this project?
 
-The innovation of technology is a fast paced and intertwined process. During our undergraduate education in computer science and communication systems we learnt about landmark inventions and innovations, that led to the connected world we live in. Upon looking into the data we quickly found these inventions in the citations graph. For example Stephen Wozniak’s Microcomputer for use with video display (#4136359), which led to the famous Apple II computer, or Google's Page Rank algorithm (#6285999), which lies at the foundation of Google's rise to power. 
+The innovation of technology is a fast paced and intertwined process. During our
+undergraduate education in computer science and communication systems we learnt about
+landmark inventions and innovations, that led to the connected world we live in. Upon
+looking into the data we quickly found these inventions in the citations graph. For example
+Stephen Wozniak’s Microcomputer for use with video display (#4136359), which led to the
+famous Apple II computer, or Google's Page Rank algorithm (#6285999), which lies at the
+foundation of Google's rise to power. 
 
 These findings led us to the question around which this project evolves, which is:
 
-"Using graph theoretic tools, can we give an educated opinion on what we think were the most influential United States patents in recent history?"
+"Using graph theoretic tools, can we give an educated opinion on what we think were
+the most influential United States patents in recent history?"
 
 ## Some preliminary facts
 [Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
@@ -64,46 +76,45 @@ When $$f(x) = x$$ then identity
 
 ## Counter
 
-<svg width="500" height="400"></svg>
-
-## Gif
+<div style="float:left; margin-right: 60px;">
+<svg width="550" height="600"></svg>
+</div>
+<div style="height: 350px; width: 150px; float:left;text-align:center;">
+  <div id="counter3" style="position: relative; top:60%; font-size: 400%"></div>
+</div>
 
 <img src="static/pagerank_bfs.gif" style="border-style: none" />
 
 ## This is a SigmaJS graph
 
-<div id="parent" style="width: 1000px; height: 550px;">
-  <div id="demo-canvas" style="position: absolute; height: 700px; width: 1000px"></div>
+<div id="parent" style="width: 900px; height: 750px;">
+  <div id="network-shortestpaths" style="position: absolute; height: 675px; width: 950px"></div>
 </div>
 
-<svg width="600px" height="100px">
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="0" refY="3" orient="auto" markerUnits="strokeWidth">
-      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
-    </marker>
-  </defs>
-  <text x="325" y="35" font-family="Courier" font-size="15">Time</text>
-  <line x1="250" y1="50" x2="450" y2="50" stroke="#000" stroke-width="4" marker-end="url(#arrow)" />
-</svg>
+<div id="parent" style="width: 900px; height: 500px;">
+  <div id="network-sinks" style="position: absolute; height: 650px; width: 950px"></div>
+</div>
 
-## This is a ChartJS plot
-<canvas id="myChart" width="300" height="300"></canvas>
+<div id="wrapper" style="height: 750px; width: 750px;">
+  <canvas id="plot-patents-year" width="300px" height="300px"></canvas>
+</div>
 
-## Usage
+<div style="overflow:auto;">
+<div style="width: 450px; height: 400px; float:left;">
+<canvas id="plot-patents-months" width="350px" height="300px"></canvas>
+</div>
 
-First, [install Jekyll](http://jekyllrb.com/docs/installation/). Then download Solo from its [GitHub Repository](https://github.com/chibicode/solo). Start Jekyll and you should see this page up and running.
+<div style="width:450px; height: 400px; float:left;">
+<canvas id="plot-patents-days" width="350px" height="300px"></canvas>
+</div>
+</div>
 
-**The main file you'll be editing is `index.md`**. This becomes the content for the page.
+<div id="wrapper" style="height: 750px; width: 750px;">
+<canvas id="plot-citations-indegree" width="300px" height="300px"></canvas>
+</div>
 
-### Other Files
 
-* Edit `_config.yml` to change the site's title and description.
-* Edit `_includes/head.html` to add custom code to `<head>`.
-* Edit `_includes/scripts.html` to add custom code before `</body>`.
-* Edit `CNAME` to host on a custom domain.
-* Edit `README.md` before pushing your code.
-
-### Don't use `<h1>` tags
+## Don't use `<h1>` tags
 
 Wthin `index.md`, do not use `<h1>` tags - `<h1>` is reserved for the site title.
 
@@ -116,10 +127,6 @@ Solo supports lists, `<hr>`s, `<table>`s,
 ~~~html
 <pre>code blocks with syntax highlighting.</pre>
 ~~~
-
-### Keep Solo up to date
-
-Instead of downloading, you can [fork Solo](https://github.com/chibicode/solo/fork) and use the "upstream" strategy described on [this page](https://help.github.com/articles/fork-a-repo) to keep Solo up to date.
 
 ## Authors
 
