@@ -66,29 +66,33 @@ the most influential United States patents in recent history?"
 
 ## Some preliminary facts
 
+To perform analysis on the graph we used the [graph tool](https://graph-tool.skewed.de/).
+A first interesting insight is the number of edges and the number of vertices:
+
 <h2 id="counter1"></h2>
 <h2 id="counter2"></h2>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
-Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
-faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
-mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
-Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
+The network graph is massive. The data from patentsview.org contains the date, when the patent was granted. How many patents were granted per year? The following plot visualized the answer to this question. A clear tendency of growth is made visible. More and more patents are being granted, more and more is being innovated. 
 
-Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
-vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
-enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
-tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
-commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
-sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
-lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
-dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
+<div id="wrapper" style="height: 750px; width: 750px;">
+  <canvas id="plot-patents-year" width="300px" height="300px"></canvas>
+</div>
 
-[Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
+Continuing with the analysis of the provided date we wanted to find out, if patents are granted more often in specific months or on specific days of the year. On the green colored plot below on the left the number of patents per month is shown. The number of granted patents per month is distributed fairly evenly over the 12 months. Below on the right in red is the number of patents granted per day of the year. Here again one can notice, that the number of patents granted is distributed evenly over all the days, except for the 31st of the month. Can you guess, why there are less patents granted on the 31st? 
 
-Looking for a more standard Jekyll theme? Try out [Shiori](http://github.com/ellekasai/shiori) theme, which has Bootstrap integration.
+<div style="overflow:auto;">
+  <div style="width: 450px; height: 400px; float:left;">
+    <canvas id="plot-patents-months" width="350px" height="300px"></canvas>
+  </div>
 
-When $$f(x) = x$$ then identity
+  <div style="width:450px; height: 400px; float:left;">
+    <canvas id="plot-patents-days" width="350px" height="300px"></canvas>
+  </div>
+</div>
+
+So far we know, that the network graph containing the patent citations is massive, that the number of patents granted per year has grown steadily and that the patents are granted throughout the year. Let's start using the graph tool.
+
+Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component) it runs in O(V + E) and labels the nodes, which are connected to the largest component.
 
 ## Counter
 
@@ -112,9 +116,7 @@ When $$f(x) = x$$ then identity
   <div id="network-sinks" style="position: absolute; height: 650px; width: 950px"></div>
 </div>
 
-<div id="wrapper" style="height: 750px; width: 750px;">
-  <canvas id="plot-patents-year" width="300px" height="300px"></canvas>
-</div>
+
 
 ## The case against time and date
 
@@ -149,15 +151,7 @@ lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh,
 dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
 
 
-<div style="overflow:auto;">
-  <div style="width: 450px; height: 400px; float:left;">
-    <canvas id="plot-patents-months" width="350px" height="300px"></canvas>
-  </div>
 
-  <div style="width:450px; height: 400px; float:left;">
-    <canvas id="plot-patents-days" width="350px" height="300px"></canvas>
-  </div>
-</div>
 
 ## In-degrees
 
