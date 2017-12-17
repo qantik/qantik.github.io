@@ -6,9 +6,6 @@ layout: default
 
 ---
 
-<h2 id="counter1"></h2>
-<h2 id="counter2"></h2>
-
 ## What are the most influential United States patents?
 
 ---
@@ -68,6 +65,25 @@ These findings led us to the question around which this project evolves, which i
 the most influential United States patents in recent history?"
 
 ## Some preliminary facts
+
+<h2 id="counter1"></h2>
+<h2 id="counter2"></h2>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
+Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
+faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
+mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
+Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
+
+Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
+vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
+enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
+tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
+commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
+sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
+lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
+dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
+
 [Solo](http://chibicode.github.io/solo) is a Jekyll theme that supports **single-page websites** only, but supports them well. Yes, it's responsive.
 
 Looking for a more standard Jekyll theme? Try out [Shiori](http://github.com/ellekasai/shiori) theme, which has Bootstrap integration.
@@ -77,13 +93,14 @@ When $$f(x) = x$$ then identity
 ## Counter
 
 <div style="float:left; margin-right: 60px;">
-<svg id="grid" width="550" height="600"></svg>
+  <svg id="grid" width="550" height="600"></svg>
 </div>
 <div style="height: 350px; width: 150px; float:left;text-align:center;">
   <div id="counter3" style="position: relative; top:60%; font-size: 400%"></div>
 </div>
 
 <img src="static/pagerank_bfs.gif" style="border-style: none" />
+
 
 ## This is a SigmaJS graph
 
