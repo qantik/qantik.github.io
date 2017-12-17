@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<img src="static/graph_seal.png" width="500" height="500" />
+
 ### Here comes the subtitle and stuff bladehblada...
 
 ---
@@ -117,6 +119,7 @@ Insight about a graph can be gained by looking at the connected components it co
 </div>
 
 
+<img src="static/apple2.gif" style="border-style: none" />
 
 ## The case against time and date
 
