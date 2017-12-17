@@ -1,6 +1,8 @@
+
+function update(n1) {
 var formatNumber = d3.format(",d");
 
-var svg = d3.select("svg");
+var svg = d3.select("#grid");
 
 var width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -10,7 +12,7 @@ var groupSpacing = 3,
     cellSize = Math.floor((width - 11 * groupSpacing) / 100) - cellSpacing,
     offset = Math.floor((width - 100 * cellSize - 90 * cellSpacing - 11 * groupSpacing) / 2);
 
-var updateDuration = 125,
+var updateDuration = 150,
     updateDelay = updateDuration / 500;
 
 var cell = svg.append("g")
@@ -21,8 +23,7 @@ var cell = svg.append("g")
 var label = svg.append("text")
     .attr("class", "label");
 
-function update(n1) {
-  var n0 = cell.size();
+    var n0 = cell.size();
 
   cell = cell
       .data(d3.range(n1));
@@ -65,7 +66,7 @@ function update(n1) {
       });
 }
 
-(function interval() {
-    update(9999);
-  // setTimeout(interval, updateDelay * 100 * 100 + updateDuration + 1000);
-})();
+// (function interval() {
+//     update(Math.random() * 1000);
+//     setTimeout(interval, updateDelay * 100 * 100 + updateDuration + 1000);
+// })();

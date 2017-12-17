@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Here comes the subtitle and stuff...
+### Here comes the subtitle and stuff bladehblada...
 
 ---
 
@@ -77,7 +77,7 @@ When $$f(x) = x$$ then identity
 ## Counter
 
 <div style="float:left; margin-right: 60px;">
-<svg width="550" height="600"></svg>
+<svg id="grid" width="550" height="600"></svg>
 </div>
 <div style="height: 350px; width: 150px; float:left;text-align:center;">
   <div id="counter3" style="position: relative; top:60%; font-size: 400%"></div>
@@ -99,18 +99,77 @@ When $$f(x) = x$$ then identity
   <canvas id="plot-patents-year" width="300px" height="300px"></canvas>
 </div>
 
+## The case against time and date
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
+Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
+faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
+mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
+Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
+
+Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
+vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
+enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
+tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
+commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
+sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
+lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
+dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
+Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
+faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
+mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
+Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
+
+Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
+vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
+enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
+tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
+commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
+sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
+lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
+dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
+
+
 <div style="overflow:auto;">
-<div style="width: 450px; height: 400px; float:left;">
-<canvas id="plot-patents-months" width="350px" height="300px"></canvas>
+  <div style="width: 450px; height: 400px; float:left;">
+    <canvas id="plot-patents-months" width="350px" height="300px"></canvas>
+  </div>
+
+  <div style="width:450px; height: 400px; float:left;">
+    <canvas id="plot-patents-days" width="350px" height="300px"></canvas>
+  </div>
 </div>
 
-<div style="width:450px; height: 400px; float:left;">
-<canvas id="plot-patents-days" width="350px" height="300px"></canvas>
-</div>
-</div>
+## In-degrees
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
+Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
+faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
+mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
+Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
+
+Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
+vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
+enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
+tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
+commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
+sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
+lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
+dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
+
+Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
+vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
+enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
+tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
+commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
+sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
+lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
+dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
 
 <div id="wrapper" style="height: 750px; width: 750px;">
-<canvas id="plot-citations-indegree" width="300px" height="300px"></canvas>
+  <canvas id="plot-citations-indegree" width="300px" height="300px"></canvas>
 </div>
 
 
