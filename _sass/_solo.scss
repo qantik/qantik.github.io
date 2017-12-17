@@ -122,13 +122,33 @@ hr {
 
 table {
   width: 100%;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 td, th {
   padding: .25rem .5rem;
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
+  width: 50%;
+  word-wrap: break-word;
+}
+
+tr {
+    height: 140px;
+}
+
+.outer {
+  background-size: 140px 115px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 120px;
+  text-align: center;
+}
+
+.inner {
+    display: none;
+    height: 120px;
 }
 
 pre, code {

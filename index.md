@@ -108,10 +108,50 @@ Confident that we are onto something, we dig deeper. A basic algorithm on graphs
 
 We handpicked three patents, that we find historically relevant and three new patents, that are driving innovation today:
 
+<table id="icon-grid">
+  <tr>
+   <td>
+     <div class="outer" id="o1-11">
+     <i class="fa fa-pagelines fa-5x"></i>
+     </div>
+     <div class="inner" id="i1-11">
+      <ul>
+        <li>Hello</li>
+        <li>World</li>
+      </ul>
+     </div>
+   </td>
+   <td>
+     <div class="outer" id="o1-12" style="background-image: url('static/dna.png');"></div>
+     <div class="inner" id="i1-12">Text</div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+     <div class="outer" id="o1-21" style="background-image: url('static/flower.png');"></div>
+     <div class="inner" id="i1-21">Text</div>
+   </td>
+   <td>
+     <div class="outer" id="o1-22" style="background-image: url('static/flower.png');"></div>
+     <div class="inner" id="i1-22">Text</div>
+   </td>
+  </tr>
+  <tr>
+  <td>
+    <div class="outer" id="o1-31" style="background-image: url('static/dna.png');"></div>
+    <div class="inner" id="i1-31">Text</div>
+   </td>
+  <td>
+    <div class="outer" id="o1-32" style="background-image: url('static/dna.png');"></div>
+    <div class="inner" id="i1-32">Text</div>
+   </td>
+  </tr>
+</table>
+
 We calculated their shortest paths and Eureka, they are connected. The below graph shows these connections. In 16 steps you can get from Google's Page Rank algorithm to the flying machine of the Wright brothers.
 
-<div id="parent" style="width: 900px; height: 500px;">
-  <div id="network-sinks" style="position: absolute; height: 650px; width: 950px"></div>
+<div id="parent" style="width: 1200px; height: 400px;">
+  <div id="network-sinks" style="position: absolute; height: 650px; width: 1200px"></div>
 </div>
 
 We are fascinated by the page rank patent and keep going. Below the shortest paths of the page rank patent to 5 handpicked patents are shown. Page rank, the source of the graph, is in red and the 5 sinks are shown in black. The farther away from page rank the lighter the color of the node. This visualization shows how complexly intertwined the net spanning around page rank is. 
@@ -127,7 +167,7 @@ One more step. The classic way to traverse a graph is using the breadth-first se
 Mesmerized, by what we have achieved we decided to do the same thing for Steve Wozniak's patent, which led to the Apple II computer:
 
 <img src="static/apple2.gif" style="border-style: none" />
-
+<img src="static/diffie_hellman.gif" style="border-style: none" />
 
 ## In-degrees
 
@@ -158,7 +198,6 @@ dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis.
 <div id="wrapper" style="height: 750px; width: 750px;">
   <canvas id="plot-citations-indegree" width="300px" height="300px"></canvas>
 </div>
-
 
 ## Don't use `<h1>` tags
 

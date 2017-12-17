@@ -1,7 +1,7 @@
 const settings = {
     autoRescale: ['nodePosition', 'edgeSize'],
     defaultLabelColor: "#000",
-    defaultLabelSize: 12,
+    defaultLabelSize: 11,
     defaultLabelHoverColor: "#fff",
     defaultHoverLabelBGColor: "#888",
     defaultLabelBGColor: "#ddd",
@@ -39,7 +39,12 @@ sigma.parsers.gexf('static/patgraph3_3.gexf', {
     settings: settings
   },
   function(s) {
-      s.cameras[0].goTo({ x: 150, y: 50, angle: 0, ratio: 1.5 });
+      s.cameras[0].goTo({ x: 300, y: 200, angle: 0, ratio: 1.7 });
+      s.graph.nodes().forEach(n => {
+	  if (n.label.length > 60)
+	      n.label = n.label.substring(0, 60) + '...';
+          n.size = 7;
+      });
       s.graph.nodes().forEach(n => {
 	  n.size = 7;
       });
