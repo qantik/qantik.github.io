@@ -33,28 +33,26 @@ function isScrolledIntoView(elem)
 }
 
 $(window).scroll(function() {
-    if (isScrolledIntoView('#plot-patents-year')) {
-        if (inView) { return; }
-	console.log('hhhhh');
-        inView = true;
-	plotYear();
-    } else if (isScrolledIntoView('#plot-patents-months')) {
-        if (inView) { return; }
-	console.log('year');
-        inView = true;
-	plotMonthDay();
-    } else if (isScrolledIntoView('#plot-citations-indegree')) {
-	if (inView) { return; }
-	console.log('indegree');
-	inView = true;
-	plotInDegrees();
-    } else if (isScrolledIntoView('#counter3')) {
+    if (isScrolledIntoView('#counter3')) {
 	if (inView) { return; }
 	inView = true;
 	counter_percentage();
 	$('#grid').empty();
 	update(9999);
+    } else if (isScrolledIntoView('#plot-patents-year')) {
+        if (inView) { return; }
+        inView = true;
+	plotYear();
+    } else if (isScrolledIntoView('#plot-patents-months')) {
+        if (inView) { return; }
+        inView = true;
+	plotMonthDay();
+    } else if (isScrolledIntoView('#plot-citations-indegree')) {
+	if (inView) { return; }
+	inView = true;
+	plotInDegrees();
     } else {
+	console.log('out');
 	inView = false;
     }
 });
