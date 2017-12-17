@@ -7,7 +7,7 @@ function counter_percentage() {
 	suffix: '%'
     };
 
-    const counter = new CountUp('counter3', 0, 99.999, 3, 5.0, options);
+    const counter = new CountUp('counter3', 0, 99.998, 3, 5.0, options);
     counter.start();
 }
 

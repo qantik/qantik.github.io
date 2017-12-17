@@ -6,11 +6,9 @@ layout: default
 
 ### Here comes the subtitle and stuff bladehblada...
 
----
 
 ## What are the most influential United States patents?
 
----
 
 This blog was written as part of the CS-401 Applied data analysis course at EPFL,
 taught in the autumn of 2017. 
@@ -22,7 +20,6 @@ and Trademark Office ([USPTO](https://www.uspto.gov/)).
 The content of this blog is intentionally high-level. Please refer to our
 [python notebook](https://nbviewer.jupyter.org/github/qantik/prayingmantissa/blob/master/project/patents.ipynb), if you are interested in viewing a more thorough and complete analysis.
 
---- 
 
 ### What is a patent and what are the above mentioned citations?
 
@@ -94,66 +91,42 @@ Continuing with the analysis of the provided date we wanted to find out, if pate
 
 So far we know, that the network graph containing the patent citations is massive, that the number of patents granted per year has grown steadily and that the patents are granted throughout the year. Let's start using the graph tool.
 
-Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component) it runs in O(V + E) and labels the nodes, which are connected to the largest component.
+Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component) it runs in $$\mathcal{O}(V + E)$$ and labels the nodes, which are connected to the largest component. We ran the algorithm and were stunned by the result. The number of connected nodes in our graph is 8261059, this means only 13932 of the nodes are not connected to the largest component! This means, that $$99.998%$$ of the nodes are connected. The below visualization tempts to give a feeling of what this implies:
 
 ## Counter
 
-<div style="float:left; margin-right: 60px;">
-  <svg id="grid" width="550" height="600"></svg>
+<div style="height:650px">
+  <div style="float:left; margin-right: 60px;">
+    <svg id="grid" width="550" height="600"></svg>
+  </div>
+  <div style="height: 350px; width: 150px; float:left;text-align:center;">
+    <div id="counter3" style="position: relative; top:60%; font-size: 400%"></div>
+  </div>
 </div>
-<div style="height: 350px; width: 150px; float:left;text-align:center;">
-  <div id="counter3" style="position: relative; top:60%; font-size: 400%"></div>
-</div>
 
-<img src="static/pagerank_bfs.gif" style="border-style: none" />
+Confident that we are onto something, we dig deeper. A basic algorithm on graphs is to calculate all shortest paths between a subset of the nodes. As a side note we would like to mention, that due to the size of the graph it is not possible for us to run algorithms with $$\mathcal{O}(V^2)$$, which would take days to finish. As a consequence we only run algorithms with complexity lower than squared. Another important side note is, that it needs to be kept in mind, that our graph is directed. Even though almost all the nodes of the graph are connected, there isn't a path from all these nodes to each other, because of the directed edges. Some nodes do not have any incoming edges, so they cannot be accessed by graph traversal from other nodes. More about this later, but for now let's go back to the shortest paths.
 
+We handpicked three patents, that we find historically relevant and three new patents, that are driving innovation today:
 
-## This is a SigmaJS graph
-
-<div id="parent" style="width: 900px; height: 750px;">
-  <div id="network-shortestpaths" style="position: absolute; height: 675px; width: 950px"></div>
-</div>
+We calculated their shortest paths and Eureka, they are connected. The below graph shows these connections. In 16 steps you can get from Google's Page Rank algorithm to the flying machine of the Wright brothers.
 
 <div id="parent" style="width: 900px; height: 500px;">
   <div id="network-sinks" style="position: absolute; height: 650px; width: 950px"></div>
 </div>
 
+We are fascinated by the page rank patent and keep going. Below the shortest paths of the page rank patent to 5 handpicked patents are shown. Page rank, the source of the graph, is in red and the 5 sinks are shown in black. The farther away from page rank the lighter the color of the node. This visualization shows how complexly intertwined the net spanning around page rank is. 
+
+<div id="parent" style="width: 900px; height: 750px;">
+  <div id="network-shortestpaths" style="position: absolute; height: 675px; width: 950px"></div>
+</div>
+
+One more step. The classic way to traverse a graph is using the breadth-first search algorithm and runs in $$\mathcal{O}(V + E)$$. The below gif shows the nodes, which are discovered when starting at the page rank node. The breadth-first search is limited to distance 3 in order to allow a visualization. Every still of the image represents a year, starting in 2001, when the page rank patent was granted, and ending in 2017. Beautiful, right?
+
+<img src="static/pagerank_bfs.gif" style="border-style: none" />
+
+Mesmerized, by what we have achieved we decided to do the same thing for Steve Wozniak's patent, which led to the Apple II computer:
 
 <img src="static/apple2.gif" style="border-style: none" />
-
-## The case against time and date
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
-Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
-faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
-mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
-Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
-
-Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
-vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
-enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
-tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
-commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
-sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
-lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
-dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit auctor laoreet.
-Donec hendrerit ex nisl, eu ornare purus tempor at. Vestibulum ante ipsum primis in
-faucibus orci luctus et ultrices posuere cubilia Curae; Nullam at cursus sem. Aenean at
-mauris ipsum. Vestibulum metus augue, pulvinar vitae tincidunt at, mattis vitae leo.
-Sed pellentesque et tellus tristique pellentesque. Mauris congue sodales nunc a tempor.
-
-Nulla aliquam velit sed quam fermentum eleifend. Mauris sem nulla, tincidunt eget arcu in,
-vestibulum fermentum dolor. Curabitur diam enim, laoreet sed justo sed, euismod aliquet
-enim. Vivamus quis dapibus tortor. Quisque placerat varius magna, sed facilisis est
-tincidunt ac. Donec sollicitudin cursus magna, porttitor mattis tellus molestie ut. Donec
-commodo sapien sapien, at pellentesque tellus fringilla et. Duis pellentesque leo quis
-sodales mollis. Mauris bibendum consequat purus, et pharetra quam tempor vel. Nunc tincidunt
-lacus vitae tortor dapibus, id pretium magna interdum. Etiam posuere porta nibh, ac
-dapibus sem malesuada ut. Donec cursus risus eu rutrum sagittis. 
-
-
 
 
 ## In-degrees
