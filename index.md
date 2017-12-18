@@ -64,8 +64,19 @@ the most influential United States patents in recent history?"
 To perform analysis on the graph we used the [graph tool library](https://graph-tool.skewed.de/).
 A first interesting insight is the number of edges and the number of vertices:
 
-<h2 id="counter1"></h2>
-<h2 id="counter2"></h2>
+<table>
+  <tr>
+   <td style="text-align:center;font-size:200%;width:50%;">
+     <div id="counter1">1.</div>
+   </td>
+   <td style="text-align:center;font-size:200%;width:50%;">
+     <div id="counter2">
+     hello
+     </div>
+   </td>
+  </tr>
+</table>
+
 
 The network graph is massive. The data from patentsview.org contains the date, when the patent was granted. How many patents were granted per year? The following plot visualizes the answer to this question. A clear tendency of growth is made visible. More and more patents are being granted, more and more is being innovated. 
 
@@ -226,24 +237,92 @@ So far the patents, that we looked at where hand curated. How could we find impo
 More than 1.4 million patents have not been cited so far! The data does not fall exponentially however. There is a very heavy tail, but the data is not distributed according to a power law. The math and reasoning behind these conclusions can be found in the above cited python notebook. 
 
 Here are the 3 patents with the highest in-degrees:
-
-- [Process for amplifying nucleic acid sequences](https://www.google.com/patents/US4683195)
-- [Mutant dwarfism gene of petunia](https://www.google.ch/patents/US5523520)
-- [Process for amplifying, detecting, and/or-cloning nucleic acid sequences](https://www.google.com/patents/US4683195)
+<table>
+  <tr>
+   <td style="text-align:center;font-size:350%;width:30%;">
+     <div>
+     5000
+     </div>
+   </td>
+   <td style="width:70%;">
+     <div>
+     <a target="_blank" href="https://www.google.com/patents/US4683195">Process for amplifying nucleic acid sequences</a>
+     </div>
+   </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;font-size:350%;width:30%;">
+      <div>4000</div>
+    </td>
+    <td style="width:70%;">
+      <div>
+        <a target="_blank" href="https://www.google.ch/patents/US5523520">Mutant dwarfism gene of petunia</a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;font-size:350%;width:30%;">
+      <div>3000</div>
+    </td>
+    <td style="width:70%;">
+      <div>
+        <a target="_blank" href="https://www.google.com/patents/US4683195">Process for amplifying, detecting, and/or-cloning nucleic acid sequences</a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 All along this blog we have been talking about PageRank. Let’s apply PageRank to our graph! But first a short description of PageRank. PageRank was developed by Sergey Brin and Larry Page at Stanford and was influenced by citation analysis developed by Eugene Garfield at the University of Pennsylvania. Similarly to looking at in-degrees, the underlying assumption is that more important websites are likely to receive more links from other websites, but PageRank additionally tries to assess the importance of the node, from which the citation is coming from. For more details please refer to the [Wikipedia](https://en.wikipedia.org/wiki/PageRank) article on PageRank. The complexity of the PageRank algorithm is $$\mathcal{O}(V + E)$$.
 
 Here are the 3 patents with the highest score using PageRank:
 
-- [Process for producing biologically functional molecular chimeras](https://www.google.com/patents/US4237224)
-
-- [Microorganisms having multiple compatible degradative energy-generating plasmids and preparation thereof](https://www.google.ch/patents/US3813316)
-
-- [Method of automatically evaluating source language logic condition sets and of compiling machine executable instructions directly therefrom](https://www.google.ch/patents/US4309756)
+<table>
+  <tr>
+   <td style="text-align:center;font-size:350%;width:30%;">
+     <div>1.</div>
+   </td>
+   <td style="width:70%;">
+     <div>
+     <a target="_blank" href="https://www.google.com/patents/US4237224">Process for producing biologically functional molecular chimeras</a>
+     </div>
+   </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;font-size:350%;width:30%;">
+      <div>2.</div>
+    </td>
+    <td style="width:70%;">
+      <div>
+        <a target="_blank" href="https://www.google.ch/patents/US3813316">Microorganisms having multiple compatible degradative energy-generating plasmids and preparation thereof</a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:center;font-size:350%;width:30%;">
+      <div>3.</div>
+    </td>
+    <td style="width:70%;">
+      <div>
+        <a target="_blank" href="https://www.google.ch/patents/US4309756">Method of automatically evaluating source language logic condition sets and of compiling machine executable instructions directly therefrom</a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 80 appear in both lists. 
 
-Here some stats
+<table>
+  <tr>
+   <td style="text-align:center;font-size:350%;width:40%;">
+     <div id="comp1">1.</div>
+   </td>
+   <td style="text-align:center;font-size:350%;width:60%;">
+     <div id="comp2">
+     hello
+     </div>
+   </td>
+  </tr>
+</table>
 
 Next we look at the patents which score high in both methods. Here are the six highest rated patents, that appear in both lists:
 
@@ -339,7 +418,6 @@ Next we look at the patents which score high in both methods. Here are the six h
    </td>
   </tr>
 </table>
-
 
 To round of this blog we would like to show you one last gif. This time it is the patent containing the Diffie-Hellman key exchange called [Cryptographic apparatus and method](https://www.google.com/patents/US4200770), which is at the foundation of modern information security. This patent is so deeply connected, that it was impossible to show three layers of breadth-first search. So here are two layers:
 

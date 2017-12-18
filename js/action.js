@@ -26,6 +26,10 @@ $(window).scroll(function() {
 	if (inView) { return; }
 	inView = true;
 	counter_ve();
+    } else if (isScrolledIntoView('#comp1')) {
+	if (inView) { return; }
+	inView = true;
+	counter_comp();
     } else {
 	inView = false;
     }

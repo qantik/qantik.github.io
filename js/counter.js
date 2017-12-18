@@ -28,6 +28,21 @@ function counter_ve() {
     counter1.start();
 }
 
+function counter_comp() {
+    const options = {
+	useEasing: true,
+	useGrouping: true,
+	decimal: '.',
+	suffix: '/100'
+    };
+
+    const counter = new CountUp('comp1', 0, 9, 0, 4.0, options);
+    counter.start();
+
+    options.suffix = '/1000';
+    const counter1 = new CountUp('comp2', 0, 89, 0, 4.0, options);
+    counter1.start();
+}
 
 // var demo1 = new CountUp('counter1', 0, 8274991, 0, 5.0, options);
 // if (!demo1.error) {
