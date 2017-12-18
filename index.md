@@ -7,7 +7,7 @@ layout: default
 ## What are the most influential United States patents?
 
 
-This blog was written as part of the CS-401 Applied data analysis course at EPFL,
+This blog was written as part of the CS-401 Applied Data Analysis course at EPFL,
 taught in the autumn of 2017. 
 
 The purpose of this blog is to present an analysis of the patent citations provided by
@@ -15,7 +15,7 @@ the [patentsview.org](http://www.patentsview.org) website of the United States P
 and Trademark Office ([USPTO](https://www.uspto.gov/)). 
 
 The content of this blog is intentionally high-level. Please refer to our
-[python notebook](https://nbviewer.jupyter.org/github/qantik/prayingmantissa/blob/master/project/patents.ipynb), if you are interested in viewing a more thorough and complete analysis.
+[jupyter notebook](https://nbviewer.jupyter.org/github/qantik/prayingmantissa/blob/master/project/patents.ipynb), if you are interested in viewing a more thorough and complete analysis.
 
 
 ### What is a patent and what are the above mentioned citations?
@@ -27,18 +27,18 @@ importing the invention into the United States" for a limited time in exchange f
 public disclosure of the invention when the patent is granted.
 
 The process of obtaining a patent from the USPTO is a lengthy and rigorous procedure.
-While applying for a patent a list of cited patents must be provided. From patentsview.org we got the complete list of all patent citations from 1976 up to the current year.
+While applying for a patent a list of cited patents must be provided. From patentsview.org we got the complete list of all patent citations from 1976 up to 2016.
 
 ### How can a list of citations be analyzed?
 
 An important subject in mathematics is the field of graph theory. The introductory
-paragraph of the wikipedia article on graph theory says the following: 
+paragraph of the Wikipedia article on graph theory says the following: 
 
-"In mathematics, graph theory is the study of graphs, which are mathematical structures 
+>In mathematics, graph theory is the study of graphs, which are mathematical structures 
 used to model pairwise relations between objects. A graph in this context is made up
 of vertices, nodes, or points which are connected by edges, arcs, or lines. A graph may
 be undirected, meaning that there is no distinction between the two vertices associated
-with each edge, or its edges may be directed from one vertex to another."
+with each edge, or its edges may be directed from one vertex to another
 
 In our model the nodes are represented by patents and the edges by citations. Our
 citations graph is directed, because it is important that one node cites the other
@@ -61,19 +61,19 @@ the most influential United States patents in recent history?"
 
 ## Some preliminary facts
 
-To perform analysis on the graph we used the [graph tool](https://graph-tool.skewed.de/).
+To perform analysis on the graph we used the [graph tool library](https://graph-tool.skewed.de/).
 A first interesting insight is the number of edges and the number of vertices:
 
 <h2 id="counter1"></h2>
 <h2 id="counter2"></h2>
 
-The network graph is massive. The data from patentsview.org contains the date, when the patent was granted. How many patents were granted per year? The following plot visualized the answer to this question. A clear tendency of growth is made visible. More and more patents are being granted, more and more is being innovated. 
+The network graph is massive. The data from patentsview.org contains the date, when the patent was granted. How many patents were granted per year? The following plot visualizes the answer to this question. A clear tendency of growth is made visible. More and more patents are being granted, more and more is being innovated. 
 
 <div id="wrapper" style="height: 750px; width: 750px;">
   <canvas id="plot-patents-year" width="300px" height="300px"></canvas>
 </div>
 
-Continuing with the analysis of the provided date, we wanted to find out, if patents are granted more often in specific months, or on specific days of the year. On the green colored plot below on the left, the number of patents per month is shown. The number of granted patents per month is distributed fairly evenly over the 12 months. Below on the right in red is the number of patents granted per day of the year. Here again one can notice, that the number of patents granted is distributed evenly over all the days, except for the 31st of the month. Can you guess, why there are less patents granted on the 31st? 
+Continuing with the analysis of the provided date, we wanted to find out, if patents are granted more often in specific months, or on specific days of the year. On the green colored plot below on the left, the total number of patents per month is shown. The number of granted patents per month is distributed fairly evenly over the 12 months. Below on the right in red is the number of patents granted per day of the year. Here again one can notice, that the number of patents granted is distributed evenly over all the days, except for the 31st of the month. Can you guess, why there are less patents granted on the 31st? 
 
 <div style="overflow:auto;">
   <div style="width: 450px; height: 400px; float:left;">
@@ -87,7 +87,7 @@ Continuing with the analysis of the provided date, we wanted to find out, if pat
 
 So far we know, that the network graph containing the patent citations is massive, that the number of patents granted per year has grown steadily and that the patents are granted throughout the year. Let's start using the graph tool.
 
-Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component) it runs in $$\mathcal{O}(V + E)$$ and labels the nodes, which are connected to the largest component. We ran the algorithm and were stunned by the result. The number of connected nodes in our graph is 8261059, this means only 13932 of the nodes are not connected to the largest component! It follows, that $$99.998\% $$ of the nodes are connected. The below visualization tempts to give a feeling of what this implies:
+Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component), which runs in $$\mathcal{O}(V + E)$$ and labels the nodes, which are connected to the largest component. We ran the algorithm and were stunned by the result. The number of connected nodes in our graph is 8261059, this means only 13932 of the nodes are not connected to the largest component! It follows, that $$99.998\% $$ of the nodes are connected. The below visualization tempts to give a feeling of what this implies:
 
 ## Counter
 
@@ -197,7 +197,7 @@ We handpicked three patents, that we find historically relevant and three new pa
   </tr>
 </table>
 
-We calculated their shortest paths and Eureka, they are connected. The below graph shows these connections. In 16 steps you can get from the PageRank algorithm to the flying machine of the Wright brothers.
+We calculated their shortest paths and Eureka, they are all interconnected connected. The below graph shows these connections. In 16 steps you can get from the PageRank algorithm to the flying machine of the Wright brothers.
 
 <div id="parent" style="width: 1200px; height: 400px;">
   <div id="network-sinks" style="position: absolute; height: 650px; width: 1200px"></div>
@@ -209,11 +209,11 @@ We are fascinated by the PageRank patent and keep going. Below the shortest path
   <div id="network-shortestpaths" style="position: absolute; height: 675px; width: 950px"></div>
 </div>
 
-One more step. The classic way to traverse a graph is using the breadth-first search algorithm and runs in $$\mathcal{O}(V + E)$$. The below gif shows the nodes, which are discovered when starting at the PageRank node. The breadth-first search is limited to distance 3 in order to allow a visualization. Every still of the image represents a year, starting in 2001, when the PageRank patent was granted, and ending in 2017. 
+One more step. One of the classic ways to traverse a graph is using the breadth-first search algorithm and runs in $$\mathcal{O}(V + E)$$. The below gif shows the nodes, which are discovered when starting at the PageRank node. The breadth-first search is limited to distance 3 in order to allow a visualization. Every still of the gif represents a year, starting in 2001, when the PageRank patent was granted, and ending in 2016. 
 
 <img src="static/pagerank_bfs.gif" style="border-style: none" />
 
-Mesmerized, by the result, we decided to do the same thing for Steve Wozniak's above mentioned patent, which led to the Apple II computer:
+Mesmerized, by the result, we decided to do the same thing for Steve Wozniak's above mentioned patent, which led to the Apple II computer. As above every frame represents a year, but this time the gif starts in 1979:
 
 <img src="static/apple2.gif" style="border-style: none" />
 
@@ -225,28 +225,28 @@ So far the patents, that we looked at where hand curated. How could we find impo
   <canvas id="plot-citations-indegree" width="300px" height="300px"></canvas>
 </div>
 
-More than 1.4 million patents have not been cited so far! The data does not fall exponentially however. There is a very heavy tail, but the data is also not distributed according to a power law. The math and reasoning behind these conclusions can be found in the above cited python notebook. 
+More than 1.4 million patents have not been cited so far! The data does not fall exponentially however. There is a very heavy tail, but the data is not distributed according to a power law. The math and reasoning behind these conclusions can be found in the above cited python notebook. 
 
 Here are the 6 patents with the highest in-degrees:
 
 ## Here a list with bulletpoints linking to google patents
 
-All along this blog we have been talking about PageRank. Let’s apply PageRank to our graph! But first a short description of PageRank. PageRank was developed by Sergey Brin and Larry Page at Stanford and was influenced by citation analysis developed by Eugene Garfield at the University of Pennsylvania. Similarly to looking at in-degrees, the underlying assumption is that more important websites are likely to receive more links from other websites, but PageRank additionally tries to assess the quality of the node, from which the citation is coming from. For more details please refer to the [wikipedia](https://en.wikipedia.org/wiki/PageRank) article on PageRank. The complexity of the PageRank algorithm is $$\mathcal{O}(V + E)$$.
+All along this blog we have been talking about PageRank. Let’s apply PageRank to our graph! But first a short description of PageRank. PageRank was developed by Sergey Brin and Larry Page at Stanford and was influenced by citation analysis developed by Eugene Garfield at the University of Pennsylvania. Similarly to looking at in-degrees, the underlying assumption is that more important websites are likely to receive more links from other websites, but PageRank additionally tries to assess the importance of the node, from which the citation is coming from. For more details please refer to the [Wikipedia](https://en.wikipedia.org/wiki/PageRank) article on PageRank. The complexity of the PageRank algorithm is $$\mathcal{O}(V + E)$$.
 
 Here are the 6 patents with the highest score using PageRank:
 
 ## Here a list with bulletpoints linking to google patents
 
-Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the quality of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 80 appear in both lists. 
+Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 80 appear in both lists. 
 
 Here some stats
 
-Next we look at the patents which score high in both methods. Here are the highest six, that appear in both lists:
+Next we look at the patents which score high in both methods. Here are the six highest rated patents, that appear in both lists:
 
 ## Andi here another clicky 6 box pictogram thing.
 
 
-To round of this blog we would like to show you one last gif. This time it is the patent containing the RSA algorithm called [Cryptographic communications system and method](https://www.google.com/patents/US4405829), which is at the foundation of modern information security. This patent is so deeply connected, that it was impossible to show three layers of breadth-first search. So here are two layers:
+To round of this blog we would like to show you one last gif. This time it is the patent containing the Diffie-Hellman key exchange called [Cryptographic apparatus and method](https://www.google.com/patents/US4200770), which is at the foundation of modern information security. This patent is so deeply connected, that it was impossible to show three layers of breadth-first search. So here are two layers:
 
 <img src="static/diffie_hellman.gif" style="border-style: none" />
 
