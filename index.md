@@ -236,7 +236,7 @@ So far the patents, that we looked at where hand curated. How could we find impo
 
 More than 1.4 million patents have not been cited so far! The data does not fall exponentially however. There is a very heavy tail, but the data is not distributed according to a power law. The math and reasoning behind these conclusions can be found in the above cited python notebook. 
 
-Here are the 3 patents with the highest in-degrees:
+Here are the 3 patents with the highest in-degrees and their corresponding number of in-degrees:
 <table>
   <tr>
    <td style="text-align:center;font-size:350%;width:30%;">
@@ -246,7 +246,7 @@ Here are the 3 patents with the highest in-degrees:
    </td>
    <td style="width:70%;">
      <div>
-     <a target="_blank" href="https://www.google.com/patents/US4683195">Process for amplifying nucleic acid sequences</a>
+     <a target="_blank" href="https://www.google.com/patents/US4683202">Process for amplifying nucleic acid sequences</a>
      </div>
    </td>
   </tr>
@@ -309,7 +309,7 @@ Here are the 3 patents with the highest score using PageRank:
   </tr>
 </table>
 
-Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 80 appear in both lists. 
+Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 89 appear in both list and in the first hundred merely 9 appear in both lists.
 
 <table>
   <tr>
@@ -324,7 +324,11 @@ Let’s compare the two methods of assessing importance of patents. Looking sole
   </tr>
 </table>
 
-Next we look at the patents which score high in both methods. Here are the six highest rated patents, that appear in both lists:
+Let's take a look at the patents that score high in both chosen methods of assessing importance. We decided to take their mean, that is to say the rank from the in-degree method plus the rank from PageRank divided by two. Here are the six highest rated patents, that appear in both lists:
+
+$$ \text{mean} = \frac{(\text{rank in-degrees} + \text{rank PageRank})}{2}$$
+
+
 
 <table id="icon-grid">
   <tr>
@@ -335,7 +339,7 @@ Next we look at the patents which score high in both methods. Here are the six h
      <div class="inner" id="i2-11">
       <ul>
         <li>  
-	  <a href="https://www.google.com/patents/US4683195" target="_blank">Process for amplifying nucleic acid sequences
+	  <a href="https://www.google.com/patents/US4683202" target="_blank">Process for amplifying nucleic acid sequences
 	  </a>
 	</li>
         <li>Apr 25, 1961</li>
@@ -418,6 +422,12 @@ Next we look at the patents which score high in both methods. Here are the six h
    </td>
   </tr>
 </table>
+
+The overall highest scoring patent was filed by the biochemist Kary Banks Mullis, who later won a Nobel Prize in recognition of his improvement of the [polymerase chain reaction](https://en.wikipedia.org/wiki/Polymerase_chain_reaction).
+
+This is the end of our short tour around the United States patents graph. We would like to emphasize, that uniquely patents filed in the United States were considered. We also in no way want to imply, that all important human innovations get patented and thus appear in this graph. 
+Penicillin is a famous example of a discovery, that never got patented and it has brought enormous change to human kind.
+
 
 To round of this blog we would like to show you one last gif. This time it is the patent containing the Diffie-Hellman key exchange called [Cryptographic apparatus and method](https://www.google.com/patents/US4200770), which is at the foundation of modern information security. This patent is so deeply connected, that it was impossible to show three layers of breadth-first search. So here are two layers:
 
