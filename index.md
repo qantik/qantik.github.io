@@ -50,8 +50,8 @@ The innovation of technology is a fast paced and intertwined process. During our
 undergraduate education in computer science and communication systems we learnt about
 landmark inventions and innovations, that led to the connected world we live in. Upon
 looking into the data, we quickly found these inventions in the citations graph. For example
-Stephen Wozniak’s Microcomputer for use with video display (#4136359), which led to the
-famous Apple II computer, or the PageRank algorithm (#6285999), which lies at the
+Stephen Wozniak’s [Microcomputer for use with video display](https://www.google.com/patents/US4136359), which led to the
+famous Apple II computer, or the [PageRank](https://www.google.com/patents/US6285999) algorithm, which lies at the
 foundation of Google's rise to power. 
 
 These findings led us to the question around which this project evolves, which is:
@@ -87,7 +87,7 @@ Continuing with the analysis of the provided date, we wanted to find out, if pat
 
 So far we know, that the network graph containing the patent citations is massive, that the number of patents granted per year has grown steadily and that the patents are granted throughout the year. Let's start using the graph tool.
 
-Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component), which runs in $$\mathcal{O}(V + E)$$ and labels the nodes, which are connected to the largest component. We ran the algorithm and were stunned by the result. The number of connected nodes in our graph is 8261059, this means only 13932 of the nodes are not connected to the largest component! It follows, that $$99.998\% $$ of the nodes are connected. The below visualization tempts to give a feeling of what this implies:
+Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component), which runs in $$\mathcal{O}(V + E)$$ and labels the nodes, which are connected to the largest component. Please follow [this](https://en.wikipedia.org/wiki/Complexity) link, if you would like to get an introduction to the big-O notation and complexity theory. We ran the algorithm and were stunned by the result. The number of connected nodes in our graph is 8261059, this means only 13932 of the nodes are not connected to the largest component! It follows, that $$99.998\% $$ of the nodes are connected. The below visualization tempts to give a feeling of what this implies:
 
 <div style="height:650px">
   <div style="float:left; margin-right: 60px;">
@@ -225,15 +225,21 @@ So far the patents, that we looked at where hand curated. How could we find impo
 
 More than 1.4 million patents have not been cited so far! The data does not fall exponentially however. There is a very heavy tail, but the data is not distributed according to a power law. The math and reasoning behind these conclusions can be found in the above cited python notebook. 
 
-Here are the 6 patents with the highest in-degrees:
+Here are the 3 patents with the highest in-degrees:
 
-## Here a list with bulletpoints linking to google patents
+- [Process for amplifying nucleic acid sequences](https://www.google.com/patents/US4683195)
+- [Mutant dwarfism gene of petunia](https://www.google.ch/patents/US5523520)
+- [Process for amplifying, detecting, and/or-cloning nucleic acid sequences](https://www.google.com/patents/US4683195)
 
 All along this blog we have been talking about PageRank. Let’s apply PageRank to our graph! But first a short description of PageRank. PageRank was developed by Sergey Brin and Larry Page at Stanford and was influenced by citation analysis developed by Eugene Garfield at the University of Pennsylvania. Similarly to looking at in-degrees, the underlying assumption is that more important websites are likely to receive more links from other websites, but PageRank additionally tries to assess the importance of the node, from which the citation is coming from. For more details please refer to the [Wikipedia](https://en.wikipedia.org/wiki/PageRank) article on PageRank. The complexity of the PageRank algorithm is $$\mathcal{O}(V + E)$$.
 
-Here are the 6 patents with the highest score using PageRank:
+Here are the 3 patents with the highest score using PageRank:
 
-## Here a list with bulletpoints linking to google patents
+- [Process for producing biologically functional molecular chimeras](https://www.google.com/patents/US4237224)
+
+- [Microorganisms having multiple compatible degradative energy-generating plasmids and preparation thereof](https://www.google.ch/patents/US3813316)
+
+- [Method of automatically evaluating source language logic condition sets and of compiling machine executable instructions directly therefrom](https://www.google.ch/patents/US4309756)
 
 Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 80 appear in both lists. 
 
@@ -245,12 +251,12 @@ Next we look at the patents which score high in both methods. Here are the six h
   <tr>
    <td>
      <div class="outer" id="o2-11">
-     <i class="fa fa-bolt fa-5x"></i>
+     <i class="fa fa-plus fa-5x"></i>
      </div>
      <div class="inner" id="i2-11">
       <ul>
         <li>  
-	  <a href="https://www.google.com/patents/US2981877" target="_blank">Semiconductor device-and-lead structure
+	  <a href="https://www.google.com/patents/US4683195" target="_blank">Process for amplifying nucleic acid sequences
 	  </a>
 	</li>
         <li>Apr 25, 1961</li>
@@ -259,12 +265,12 @@ Next we look at the patents which score high in both methods. Here are the six h
    </td>
    <td>
      <div class="outer" id="o2-12">
-     <i class="fa fa-mobile fa-5x"></i>
+     <i class="fa fa-search fa-5x"></i>
      </div>
      <div class="inner" id="i2-12">
       <ul>
         <li>  
-	  <a href="https://www.google.com/patents/US20090241072" target="_blank">Unlocking a Device by Performing Gestures on an Unlock Image
+	  <a href="https://www.google.com/patents/US4683195" target="_blank">Process for amplifying, detecting, and/or-cloning nucleic acid sequences
 	  </a>
 	</li>
         <li>	Sep 24, 2009</li>
@@ -275,12 +281,12 @@ Next we look at the patents which score high in both methods. Here are the six h
   <tr>
    <td>
      <div class="outer" id="o2-21">
-     <i class="fa fa-plane fa-5x"></i>
+     <i class="fa fa-leaf fa-5x"></i>
      </div>
      <div class="inner" id="i2-21">
       <ul>
         <li>  
-	  <a href="https://www.google.com/patents/US821393" target="_blank">Flying machine
+	  <a href="https://www.google.ch/patents/US5523520" target="_blank">Mutant dwarfism gene of petunia
 	  </a>
 	</li>
         <li>May 22, 1906</li>
@@ -289,12 +295,12 @@ Next we look at the patents which score high in both methods. Here are the six h
    </td>
    <td>
      <div class="outer" id="o2-22">
-     <i class="fa fa-file fa-5x"></i>
+     <i class="fa fa-tint fa-5x"></i>
      </div>
      <div class="inner" id="i2-22">
       <ul>
         <li>  
-	  <a href="https://www.google.com/patents/US6285999" target="_blank">Method for node ranking in a linked database
+	  <a href="https://www.google.ch/patents/US4849774" target="_blank">Bubble jet recording method and apparatus in which a heating element generates bubbles in a liquid flow path to project droplets
 	  </a>
 	</li>
         <li>Sep 4, 2001</li>
@@ -305,12 +311,12 @@ Next we look at the patents which score high in both methods. Here are the six h
   <tr>
    <td>
      <div class="outer" id="o2-31">
-     <i class="fa fa-wifi fa-5x"></i>
+     <i class="fa fa-file-image-o fa-5x"></i>
      </div>
      <div class="inner" id="i2-31">
       <ul>
         <li>  
-	  <a href="https://www.google.com/patents/US676332" target="_blank">Apparatus for wireless telegraphy
+	  <a href="https://www.google.ch/patents/US5572643" target="_blank">Web browser with dynamic display of information objects during linking
 	  </a>
 	</li>
         <li>Jun 11, 1901s</li>
@@ -319,12 +325,12 @@ Next we look at the patents which score high in both methods. Here are the six h
    </td>
    <td>
      <div class="outer" id="o2-32">
-     <i class="fa fa-medkit fa-5x"></i>
+     <i class="fa fa-flask fa-5x"></i>
      </div>
      <div class="inner" id="i2-32">
       <ul>
         <li>  
-	  <a href="https://www.google.ch/patents/US8930044" target="_blank">Multi-part navigation process by an unmanned aerial vehicle for navigating to a medical situatiion
+	  <a href="https://www.google.com/patents/US4463359" target="_blank">Droplet generating method and apparatus thereof
 	  </a>
 	</li>
         <li>6 Jan 2015</li>
