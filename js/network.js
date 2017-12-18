@@ -22,8 +22,8 @@ sigma.parsers.gexf('static/shortestpath1.gexf', {
   function(s) {
       s.cameras[0].goTo({ x: 100, y: 0, angle: 0, ratio: 1.0 });
       s.graph.nodes().forEach(n => {
-	  if (n.label.length > 60)
-	      n.label = n.label.substring(0, 60) + '...';
+	  if (n.label.length > 45)
+	      n.label = n.label.substring(0, 45) + '...';
           n.size = 7;
       });
       s.graph.edges().forEach(e => {
@@ -39,10 +39,10 @@ sigma.parsers.gexf('static/patgraph3_3.gexf', {
     settings: settings
   },
   function(s) {
-      s.cameras[0].goTo({ x: 300, y: 200, angle: 0, ratio: 1.7 });
+      s.cameras[0].goTo({ x: 150, y: 250, angle: 0, ratio: 1.7 });
       s.graph.nodes().forEach(n => {
-	  if (n.label.length > 60)
-	      n.label = n.label.substring(0, 60) + '...';
+	  if (n.label.length > 45)
+	      n.label = n.label.substring(0, 45) + '...';
           n.size = 7;
       });
       s.graph.nodes().forEach(n => {

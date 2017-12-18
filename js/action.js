@@ -21,7 +21,7 @@ $(window).scroll(function() {
 	inView = true;
 	counter_percentage();
 	$('#grid').empty();
-	update(9999);
+	update(9998);
     } else if (isScrolledIntoView('#counter1')) {
 	if (inView) { return; }
 	inView = true;
@@ -91,4 +91,67 @@ $(document).ready(function() {
         $("#o1-32").toggle();
         $(this).toggle();
     });
+
+
+
+    $("#o2-11").mouseenter(function() {
+        $(this).toggle();
+        $("#i2-11").toggle();
+    });
+
+    $("#i2-11").mouseleave(function() {
+        $("#o2-11").toggle();
+        $(this).toggle();
+    });
+
+    $("#o2-12").mouseenter(function() {
+        $(this).toggle();
+        $("#i2-12").toggle();
+    });
+
+    $("#i2-12").mouseleave(function() {
+        $("#o2-12").toggle();
+        $(this).toggle();
+    });
+
+    $("#o2-21").mouseenter(function () {
+        $(this).toggle();
+        $("#i2-21").toggle();
+    });
+
+    $("#i2-21").mouseleave(function () {
+        $("#o2-21").toggle();
+        $(this).toggle();
+    });
+
+    $("#o2-22").mouseenter(function () {
+        $(this).toggle();
+        $("#i2-22").toggle();
+    });
+
+    $("#i2-22").mouseleave(function () {
+        $("#o2-22").toggle();
+        $(this).toggle();
+    });
+
+    $("#o2-31").mouseenter(function () {
+        $(this).toggle();
+        $("#i2-31").toggle();
+    });
+
+    $("#i2-31").mouseleave(function () {
+        $("#o2-31").toggle();
+        $(this).toggle();
+    });
+
+    $("#o2-32").mouseenter(function () {
+        $(this).toggle();
+        $("#i2-32").toggle();
+    });
+
+    $("#i2-32").mouseleave(function () {
+        $("#o2-32").toggle();
+        $(this).toggle();
+    });
+    
 })

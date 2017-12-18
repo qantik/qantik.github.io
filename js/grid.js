@@ -61,7 +61,7 @@ var label = svg.append("text")
         var i = d3.interpolateNumber(n0, n1);
         return function(t) {
             // this.textContent = formatNumber(Math.round(i(t)));
-	    this.textContent = 'hello';
+	    // this.textContent = 'hello';
         };
       });
 }

@@ -89,8 +89,6 @@ So far we know, that the network graph containing the patent citations is massiv
 
 Insight about a graph can be gained by looking at the connected components it contains. It is of interest to know if a graph is split up into many smaller disjoint graphs, or if for example the entire graph is connected. In the graph tool library there is a function called [label_largest_component](https://graph-tool.skewed.de/static/doc/topology.html#graph_tool.topology.label_largest_component), which runs in $$\mathcal{O}(V + E)$$ and labels the nodes, which are connected to the largest component. We ran the algorithm and were stunned by the result. The number of connected nodes in our graph is 8261059, this means only 13932 of the nodes are not connected to the largest component! It follows, that $$99.998\% $$ of the nodes are connected. The below visualization tempts to give a feeling of what this implies:
 
-## Counter
-
 <div style="height:650px">
   <div style="float:left; margin-right: 60px;">
     <svg id="grid" width="550" height="600"></svg>
@@ -199,8 +197,8 @@ We handpicked three patents, that we find historically relevant and three new pa
 
 We calculated their shortest paths and Eureka, they are all interconnected connected. The below graph shows these connections. In 16 steps you can get from the PageRank algorithm to the flying machine of the Wright brothers.
 
-<div id="parent" style="width: 1200px; height: 400px;">
-  <div id="network-sinks" style="position: absolute; height: 650px; width: 1200px"></div>
+<div id="parent" style="width: 1000px; height: 400px;">
+  <div id="network-sinks" style="position: absolute; height: 650px; width: 1000px"></div>
 </div>
 
 We are fascinated by the PageRank patent and keep going. Below the shortest paths of the PageRank patent to 7 handpicked patents are shown. PageRank, the source of the graph, is in red and the 7 sinks are shown in black. The farther away from PageRank the lighter the color of the node. This visualization shows how complexly intertwined the net spanning around PageRank is. 
@@ -243,7 +241,98 @@ Here some stats
 
 Next we look at the patents which score high in both methods. Here are the six highest rated patents, that appear in both lists:
 
-## Andi here another clicky 6 box pictogram thing.
+<table id="icon-grid">
+  <tr>
+   <td>
+     <div class="outer" id="o2-11">
+     <i class="fa fa-bolt fa-5x"></i>
+     </div>
+     <div class="inner" id="i2-11">
+      <ul>
+        <li>  
+	  <a href="https://www.google.com/patents/US2981877" target="_blank">Semiconductor device-and-lead structure
+	  </a>
+	</li>
+        <li>Apr 25, 1961</li>
+      </ul>
+     </div>
+   </td>
+   <td>
+     <div class="outer" id="o2-12">
+     <i class="fa fa-mobile fa-5x"></i>
+     </div>
+     <div class="inner" id="i2-12">
+      <ul>
+        <li>  
+	  <a href="https://www.google.com/patents/US20090241072" target="_blank">Unlocking a Device by Performing Gestures on an Unlock Image
+	  </a>
+	</li>
+        <li>	Sep 24, 2009</li>
+      </ul>
+     </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+     <div class="outer" id="o2-21">
+     <i class="fa fa-plane fa-5x"></i>
+     </div>
+     <div class="inner" id="i2-21">
+      <ul>
+        <li>  
+	  <a href="https://www.google.com/patents/US821393" target="_blank">Flying machine
+	  </a>
+	</li>
+        <li>May 22, 1906</li>
+      </ul>
+     </div>
+   </td>
+   <td>
+     <div class="outer" id="o2-22">
+     <i class="fa fa-file fa-5x"></i>
+     </div>
+     <div class="inner" id="i2-22">
+      <ul>
+        <li>  
+	  <a href="https://www.google.com/patents/US6285999" target="_blank">Method for node ranking in a linked database
+	  </a>
+	</li>
+        <li>Sep 4, 2001</li>
+      </ul>
+     </div>
+   </td>
+  </tr>
+  <tr>
+   <td>
+     <div class="outer" id="o2-31">
+     <i class="fa fa-wifi fa-5x"></i>
+     </div>
+     <div class="inner" id="i2-31">
+      <ul>
+        <li>  
+	  <a href="https://www.google.com/patents/US676332" target="_blank">Apparatus for wireless telegraphy
+	  </a>
+	</li>
+        <li>Jun 11, 1901s</li>
+      </ul>
+     </div>
+   </td>
+   <td>
+     <div class="outer" id="o2-32">
+     <i class="fa fa-medkit fa-5x"></i>
+     </div>
+     <div class="inner" id="i2-32">
+      <ul>
+        <li>  
+	  <a href="https://www.google.ch/patents/US8930044" target="_blank">Multi-part navigation process by an unmanned aerial vehicle for navigating to a medical situatiion
+	  </a>
+	</li>
+        <li>6 Jan 2015</li>
+      </ul>
+     </div>
+   </td>
+  </tr>
+</table>
 
 
 To round of this blog we would like to show you one last gif. This time it is the patent containing the Diffie-Hellman key exchange called [Cryptographic apparatus and method](https://www.google.com/patents/US4200770), which is at the foundation of modern information security. This patent is so deeply connected, that it was impossible to show three layers of breadth-first search. So here are two layers:
