@@ -40,7 +40,7 @@ function counter_comp() {
     counter.start();
 
     options.suffix = '/1000';
-    const counter1 = new CountUp('comp2', 0, 89, 0, 4.0, options);
+    const counter1 = new CountUp('comp2', 0, 98, 0, 4.0, options);
     counter1.start();
 }
 

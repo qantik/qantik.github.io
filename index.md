@@ -307,7 +307,7 @@ Here are the 3 patents with the highest score using PageRank:
   </tr>
 </table>
 
-Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 89 appear in both list and in the first hundred merely 9 appear in both lists.
+Let’s compare the two methods of assessing importance of patents. Looking solely at the in-degrees doesn’t take into account the importance of the incoming citation. One could imagine, that being cited by 1000 nodes, which all have zero in-degree would imply, that the innovation provided is actually not that great. On the other hand PageRank favors older patents, because new patents are cited by patents, that are maybe too young to have incoming citations and therefore have low PageRank. In any case the two methods produce very different results. In the first 1000 patents only 98 appear in both list and in the first hundred merely 9 appear in both lists.
 
 <table>
   <tr>
