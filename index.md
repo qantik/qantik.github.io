@@ -240,9 +240,7 @@ Here are the 3 patents with the highest in-degrees and their corresponding numbe
 <table>
   <tr>
    <td style="text-align:center;font-size:350%;width:30%;">
-     <div>
-     5000
-     </div>
+     <div>3709</div>
    </td>
    <td style="width:70%;">
      <div>
@@ -252,7 +250,7 @@ Here are the 3 patents with the highest in-degrees and their corresponding numbe
   </tr>
   <tr>
     <td style="text-align:center;font-size:350%;width:30%;">
-      <div>4000</div>
+      <div>3342</div>
     </td>
     <td style="width:70%;">
       <div>
@@ -262,7 +260,7 @@ Here are the 3 patents with the highest in-degrees and their corresponding numbe
   </tr>
   <tr>
     <td style="text-align:center;font-size:350%;width:30%;">
-      <div>3000</div>
+      <div>3188</div>
     </td>
     <td style="width:70%;">
       <div>
