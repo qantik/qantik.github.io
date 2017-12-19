@@ -376,7 +376,7 @@ $$ \text{mean} = \frac{(\text{rank in-degrees} + \text{rank PageRank})}{2}$$
    </td>
    <td>
      <div class="outer" id="o2-22">
-     <i class="fa fa-tint fa-5x"></i>
+     <i class="fa fa-flask fa-5x"></i>
      </div>
      <div class="inner" id="i2-22">
       <ul>
@@ -406,7 +406,7 @@ $$ \text{mean} = \frac{(\text{rank in-degrees} + \text{rank PageRank})}{2}$$
    </td>
    <td>
      <div class="outer" id="o2-32">
-     <i class="fa fa-flask fa-5x"></i>
+     <i class="fa fa-tint fa-5x"></i>
      </div>
      <div class="inner" id="i2-32">
       <ul>
